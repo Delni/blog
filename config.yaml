@@ -1,0 +1,100 @@
+baseURL: /
+theme: terminal
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+author: Nicolas Delauney
+title: "Delni :: Blog"
+copyright: © 2022 - Nicolas Delauney
+
+# owner = 'Nicolas Delauney'
+authorTwitter: Delni_
+# paginate = 5
+# keywords = ""
+
+params:
+  showLanguageSelector: true
+  centerTheme: true
+  logo:
+    logoText: Delni
+  twitter:
+    creator: Delni_
+#   ToC = true
+#   [params.twitter]
+#     creator = "Delni_"
+#     site = "https://delni.me"
+
+languages:
+  en:
+    languageName: 🇺🇸 English
+    weight: 1
+    readMore: Read more
+    menuMore: More
+    readOtherPosts: Read other posts
+    missingContentMessage: Page not found...
+    missingBackButtonLabel: Back to home page
+
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: tags
+          name: Tags
+          url: /en/tags
+  fr:
+    languageName: 🇫🇷 Français
+    weight: 2
+    missingContentMessage: Oups, pas par là !
+    missingBackButtonLabel: Retourner au début
+    menu:
+      main:
+        - identifier: about
+          name: A propos
+          url: /about
+        - identifier: tags
+          name: Tags
+          url: /fr/tags
+#     title = "Delni's Blog"
+#     subtitle = "For stuff I'd like to share"
+#     menuMore = "Show more"
+#     readMore = "Read more"
+#     readOtherPosts = "Read other posts"
+#     newerPosts = "Newer posts"
+#     olderPosts = "Older posts"
+#     missingContentMessage = "Page not found..."
+#     missingBackButtonLabel = "Back to home page"
+
+#     # [languages.en.menu]
+#     #   [[languages.en.menu.main]]
+#     #     identifier = "about"
+#     #     name = "About"
+#     #     url = "/about"
+#     #   [[languages.en.menu.main]]
+#     #     identifier = "showcase"
+#     #     name = "Showcase"
+#     #     url = "/showcase"
+
+#   [languages.fr]
+#     languageName = "Français"
+#     title = "Blog de Delni"
+#     subtitle = "Pour tout ce que je souhaite partager"
+#     menuMore = "Voir plus"
+#     readMore = "Lire plus"
+#     readOtherPosts = "Lire les autres articles"
+#     newerPosts = "Derniers articles"
+#     olderPosts = "Articles les plus anciens"
+#     missingContentMessage = "Page non trouvée..."
+#     missingBackButtonLabel = "Retourner à l'accueil"
+
+#     [languages.fr.params]
+#       TocTitle = "Sommaire"
+
+#     # [languages.en.menu]
+#     #   [[languages.en.menu.main]]
+#     #     identifier = "about"
+#     #     name = "About"
+#     #     url = "/about"
+#     #   [[languages.en.menu.main]]
+#     #     identifier = "showcase"
+#     #     name = "Showcase"
+#     #     url = "/showcase"
