@@ -1,4 +1,3 @@
-baseURL: /
 theme: terminal
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -14,6 +13,7 @@ authorTwitter: Delni_
 params:
   showLanguageSelector: true
   centerTheme: true
+  favicon: /images/favicon.png
   logo:
     logoText: Delni
   twitter:
@@ -35,66 +35,46 @@ languages:
 
     menu:
       main:
-        - identifier: about
-          name: About
-          url: /about
+        # - identifier: about
+        #   name: About
+        #   url: /en/about
+        #   weight: 1
         - identifier: tags
           name: Tags
           url: /en/tags
+          weight: 2
+        - identifier: posts
+          name: Posts
+          url: /en/posts
+          weight: 3
+
+    params:
+      logo:
+        logoText: Delni's blog
+        logoHomeLink: /en/
   fr:
     languageName: 🇫🇷 Français
     weight: 2
     missingContentMessage: Oups, pas par là !
     missingBackButtonLabel: Retourner au début
+    readMore: Lire plus
+    menuMore: Plus
+    readOtherPosts: Lires les autres articles
     menu:
       main:
-        - identifier: about
-          name: A propos
-          url: /about
+        # - identifier: about
+        #   name: À propos
+        #   url: /fr/about
+        #   weight: 1
         - identifier: tags
           name: Tags
           url: /fr/tags
-#     title = "Delni's Blog"
-#     subtitle = "For stuff I'd like to share"
-#     menuMore = "Show more"
-#     readMore = "Read more"
-#     readOtherPosts = "Read other posts"
-#     newerPosts = "Newer posts"
-#     olderPosts = "Older posts"
-#     missingContentMessage = "Page not found..."
-#     missingBackButtonLabel = "Back to home page"
-
-#     # [languages.en.menu]
-#     #   [[languages.en.menu.main]]
-#     #     identifier = "about"
-#     #     name = "About"
-#     #     url = "/about"
-#     #   [[languages.en.menu.main]]
-#     #     identifier = "showcase"
-#     #     name = "Showcase"
-#     #     url = "/showcase"
-
-#   [languages.fr]
-#     languageName = "Français"
-#     title = "Blog de Delni"
-#     subtitle = "Pour tout ce que je souhaite partager"
-#     menuMore = "Voir plus"
-#     readMore = "Lire plus"
-#     readOtherPosts = "Lire les autres articles"
-#     newerPosts = "Derniers articles"
-#     olderPosts = "Articles les plus anciens"
-#     missingContentMessage = "Page non trouvée..."
-#     missingBackButtonLabel = "Retourner à l'accueil"
-
-#     [languages.fr.params]
-#       TocTitle = "Sommaire"
-
-#     # [languages.en.menu]
-#     #   [[languages.en.menu.main]]
-#     #     identifier = "about"
-#     #     name = "About"
-#     #     url = "/about"
-#     #   [[languages.en.menu.main]]
-#     #     identifier = "showcase"
-#     #     name = "Showcase"
-#     #     url = "/showcase"
+          weight: 2
+        - identifier: posts
+          name: Articles
+          url: /fr/posts
+          weight: 3
+    params:
+      logo:
+        logoText: Delni
+        logoHomeLink: /fr/
