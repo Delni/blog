@@ -1,3 +1,4 @@
+baseUrl: /
 theme: terminal
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -43,10 +44,10 @@ languages:
           name: Tags
           url: /en/tags
           weight: 2
-        - identifier: posts
-          name: Posts
-          url: /en/posts
-          weight: 3
+        # - identifier: posts
+        #   name: Posts
+        #   url: /en/posts
+        #   weight: 3
 
     params:
       logo:
@@ -70,10 +71,10 @@ languages:
           name: Tags
           url: /fr/tags
           weight: 2
-        - identifier: posts
-          name: Articles
-          url: /fr/posts
-          weight: 3
+        # - identifier: posts
+        #   name: Articles
+        #   url: /fr/posts
+        #   weight: 3
     params:
       logo:
         logoText: Delni
