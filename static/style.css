@@ -1,1 +1,64 @@
-/* TODO */
+:root {
+	--accent: #272736;
+	--background: white;
+	--color: black;
+	--border-color: var(--background);
+	--border-width: 10px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent: #c2c2d1;
+		--background: #272736;
+		--color: white;
+		--border-color: var(--background);
+	}
+}
+
+
+body {
+	background: var(--background);
+	color: var(--color);
+}
+
+.logo {
+	color: var(--background)
+}
+
+.language-selector__more {
+	width: max-content;
+	text-align: right;
+}
+
+.language-selector__more li {
+	margin: 0 !important;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active {
+	text-decoration: underline;
+}
+
+.post-meta {
+	color: var(--accent);
+	opacity: 70%;
+}
+
+.hanchor {
+	color: var(--accent);
+	opacity: 90%;
+}
+
+.post-cover {
+	border-width: var(--border-width);
+	padding: var(--border-width);
+}
+
+.header .menu,.header .menu .language-selector__more {
+	color: var(--color);
+}
