@@ -1,4 +1,4 @@
 ---
 title: Home
 ---
-Hello world ! Bienvenu sur mon blog !
+Hello world ! Bienvenue sur mon blog !

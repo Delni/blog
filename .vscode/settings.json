@@ -1,7 +1,7 @@
 {
+	"git.ignoredRepositories": [],
 	"frontMatter.content.autoUpdateDate": true,
 	"frontMatter.content.fmHighlight": false,
 	"frontMatter.preview.host": "http://localhost:1313/",
-	"[markdown]": {
-	}
+	"[markdown]": {}
 }

@@ -36,18 +36,18 @@ languages:
 
     menu:
       main:
-        # - identifier: about
-        #   name: About
-        #   url: /en/about
-        #   weight: 1
+        - identifier: about
+          name: About
+          url: /en/about
+          weight: 1
         - identifier: tags
           name: Tags
           url: /en/tags
           weight: 2
-        # - identifier: posts
-        #   name: Posts
-        #   url: /en/posts
-        #   weight: 3
+        - identifier: posts
+          name: Posts
+          url: /en/posts
+          weight: 3
 
     params:
       logo:
@@ -63,18 +63,18 @@ languages:
     readOtherPosts: Lires les autres articles
     menu:
       main:
-        # - identifier: about
-        #   name: À propos
-        #   url: /fr/about
-        #   weight: 1
+        - identifier: about
+          name: À propos
+          url: /fr/about
+          weight: 1
         - identifier: tags
           name: Tags
           url: /fr/tags
           weight: 2
-        # - identifier: posts
-        #   name: Articles
-        #   url: /fr/posts
-        #   weight: 3
+        - identifier: posts
+          name: Articles
+          url: /fr/posts
+          weight: 3
     params:
       logo:
         logoText: Delni
