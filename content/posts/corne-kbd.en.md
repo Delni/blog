@@ -12,9 +12,7 @@ keywords:
 description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 readingTime: true
 draft: false
-hideComments: false
-offTheRecord: true
-lastmod: 2022-10-16T15:39:36.543Z
+lastmod: 2022-10-16T16:17:50.072Z
 categories:
   - keyboard
 slug: corne-kbd
@@ -44,7 +42,7 @@ Let's go !
 | TRRS Cable                           |                      |     1     |
 | Corne LP V3 PCB                      |                      |     1     |
 |                                      |
-|  Wrk Daily keyset                    | [Work Louder][4]     |     1     |
+| Wrk Daily keyset                     | [Work Louder][4]     |     1     |
 | Kailh Choc Brown                     | [splitkb.com][5]     |    50     |
 | nice!nano                            | [splitkb.com][6]     |     2     |
 | Mill Max Low Profile Sockets         | [splitkb.com][7]     |     2     |
@@ -61,7 +59,7 @@ Following foostan build log I started with the SMD Diodes. The diodes are really
 
 ![The black mark is the bar on the schema](/images/corne/2022-10-01%2016.29.18.jpg)
 
-To solder these tiny tiny pieces, I put some solder on the first pad, then with a tweezer placed the diode and melt the previous solder to push it into place. Once it's done for all the diodes, I soldered the other side of each ones
+To solder these tiny tiny pieces, I put some solder on the first pad, then with a tweezer placed the diode and melt the previous solder to push it into place. Once it's done for all the diodes, I soldered the other side of each ones.
 
 | [![The solder is on the right pad only][img1]][img1] | [![All the diodes are soldered][img2]][img2] |
 | :--------------------------------------------------: | :------------------------------------------: |
@@ -79,7 +77,7 @@ The PCB is now almost ready! I did not put any LED to preserve my battery life
 
 # 🔩 Step 2: Soldering the micro controllers
 
-I decided for this build to socket my microcontrollers. Easier to deal with in case... you know... Something goes afar. I used the MillMax Diode pins. Once everything was in place, I also added the reset button, and the sockets for the LCD.
+I decided for this build to socket my microcontrollers. Easier to deal with in case... you know... Something goes sideways. I used the MillMax Diode pins. Once everything was in place, I also added the reset button, and the sockets for the LCD.
 
 ![Millmax sockets and reset button](/images/corne/2022-10-16%2017.01.13.jpg)
 
@@ -93,7 +91,7 @@ To load the firmware onto the nice!nano, it is as simple as it gets: double clic
 
 # 🧟 Step 4: Test, is it alive ??
 
-I mounted 3 or 4 switches to test that everything was good. Of course, At this step, I can only see if _these_ keys works, but at least it allowed me to make sure that the nice!nano and the computer were able to discuss.
+I mounted 3 or 4 switches to test that everything was good. Of course, at this step, I can only see if _these_ keys works, but at least it allowed me to make sure that the nice!nano and the computer were able to discuss.
 
 ![Some switches to test](/images/corne/2022-10-16%2016.55.57.jpg)
 
