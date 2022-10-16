@@ -15,14 +15,14 @@ showFullContent: false
 readingTime: true
 draft: false
 hideComments: false
-lastmod: 2022-10-16T16:41:58.578Z
+lastmod: 2022-10-16T16:54:40.649Z
 ---
 
 Je suis tombé amoureux des claviers mécaniques depuis le jour (pas si lointain) où j'ai eu la chance de poser mes doigts sur l'un d'entre eux. Mon premier clavier était un Kickstarter, assez peu cher, mais je suis rapidement passé au Keychron K2. Ces deux claviers étaient sans-fils Bluetooth, ce qui est pratique et esthétique (pas de fils partout sur le bureau), encore plus vu que j'utilise un clavier sur plusieurs ordinateurs. Les différents profils me permettent de changer la destination au besoin.
 
 Mais alors que je suivais le lapin au fond de son terrier, l'évidence s'imposa à moi : le Graal des claviers était un clavier **split** (séparé en 2 moitiés) et **ortholinéaire** (les touches sur une grille et non pas décalées). Les petits formats me plaisent bien, et je me suis rapidement pris de passion pour le projet _Corne_. Corne, ou Helix, ou [crkbd](https://github.com/foostan/crkbd) est un clavier ortho, split, 6\*4 fait par [foostan](https://github.com/foostan).
 
-Comme dit juste avant, je recherchais un clavier sans fils, et quite à faire un "petit" clavier, autant aller à fond sur le petit et faire un clavier "Low Profile".
+Comme dit juste avant, je recherchais un clavier sans-fil, et quitte à faire un "petit" clavier, autant aller à fond sur le petit et faire un clavier "Low Profile".
 
 Voici donc mon buildlog, en espérant que ça puisse en aider certains d'entre vous.
 
@@ -65,7 +65,7 @@ Afin de souder ces toutes petites pièces, j'ai commencé par mettre du fil de s
 | :---------------------------------------------: | :----------------------------------------: |
 |         La soudure à droite uniquement          |         Toutes les diodes soudées          |
 
-Ensuite j'ai soudé les sockets hotswap. C'est assez simples, elles rentrent facilement dans les trous prévus à cet effet dans les plaques.
+Ensuite j'ai soudé les sockets hotswap. C'est assez simple, elles rentrent facilement dans les trous prévus à cet effet dans les plaques.
 
 | [![Hotswap socket devant les trous PCB][img3]][img3] | [![Hotswap sockets à travers la PCB][img4]][img4] |
 | :--------------------------------------------------: | :-----------------------------------------------: |
@@ -85,7 +85,7 @@ Rien d'excitant ici, mais bien entendu je n'ai pas fait attention à la polarit�
 
 # ⚙️ Étape 3: Installation de ZMK
 
-[ZMK](https://zmk.dev) est très simple à utiliser. Ils ont développé un système de build sur les Github Actions, donc je n'ai eu qu'à créer un repository, lancer leur petit CLI et j'étais prêt. Il suffit de suivre la [doc ici][10]. Chaque action donera un firmware que je n'aurai plus qu'à copier sur le clavier. Notez que pour une mise à jour de la keymap, seul le "main" (partie de gauche) doit être mis à jour.
+[ZMK](https://zmk.dev) est très simple à utiliser. Ils ont développé un système de build sur les Github Actions, donc je n'ai eu qu'à créer un repository, lancer leur petit CLI et j'étais prêt. Il suffit de suivre la [doc ici][10]. Chaque action donnera un firmware que je n'aurai plus qu'à copier sur le clavier. Notez que pour une mise à jour de la keymap, seul le "main" (partie de gauche) doit être mis à jour.
 
 Pour charger le firmware sur le nice!nano, c'est bête comme chou : il suffit de double cliquer sur le bouton de reset, et le controller se comporte comme une clé USB sur l'ordinateur.
 
