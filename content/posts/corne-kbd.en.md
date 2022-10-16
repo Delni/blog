@@ -14,7 +14,7 @@ readingTime: true
 draft: false
 hideComments: false
 offTheRecord: true
-lastmod: 2022-10-16T15:23:38.101Z
+lastmod: 2022-10-16T15:39:36.543Z
 categories:
   - keyboard
 slug: corne-kbd
@@ -55,7 +55,7 @@ Let's go !
 
 The PCB needs to break free of the mounting points. Don't be afraid to bend the plates, they are made for it.
 
-![](/images/corne/2022-10-01%2016.27.36.jpg)
+![Blank PCB](/images/corne/2022-10-01%2016.27.36.jpg)
 
 Following foostan build log I started with the SMD Diodes. The diodes are really tiny, and I double checked the polarity before soldering :
 
@@ -63,24 +63,25 @@ Following foostan build log I started with the SMD Diodes. The diodes are really
 
 To solder these tiny tiny pieces, I put some solder on the first pad, then with a tweezer placed the diode and melt the previous solder to push it into place. Once it's done for all the diodes, I soldered the other side of each ones
 
-| [![The solder is on the right pad only](/images/corne/2022-10-01%2016.29.09.jpg)](/images/corne/2022-10-01%2016.29.09.jpg) | [![All the diodes are soldered](/images/corne/2022-10-01%2016.29.45.jpg)](/images/corne/2022-10-01%2016.29.45.jpg) |
-| :------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
-|                                            The solder is on the right pad only                                             |                                            All the diodes are soldered                                             |
+| [![The solder is on the right pad only][img1]][img1] | [![All the diodes are soldered][img2]][img2] |
+| :--------------------------------------------------: | :------------------------------------------: |
+|         The solder is on the right pad only          |         All the diodes are soldered          |
 
 Next I soldered the hotswap sockets. Really straight forward, they are held in place thanks to the holes in the plates.
-[![](/images/corne/2022-10-01%2016.29.58.jpg)](/images/corne/2022-10-01%2016.29.58.jpg) | [![](/images/corne/2022-10-01%2016.29.41.jpg)](/images/corne/2022-10-01%2016.29.41.jpg)
-:--: | :--:
-The sockets sit nicely in the holes | On the other side, the hotswap aligned in the holes
+
+| [![Hotswap socket in front of PCB holes][img3]][img3] | [![Hotswap sockets seen through the PCB][img4]][img4] |
+| :---------------------------------------------------: | :---------------------------------------------------: |
+|          The sockets sit nicely in the holes          |  On the other side, the hotswap aligned in the holes  |
 
 The PCB is now almost ready! I did not put any LED to preserve my battery life
 
-![](/images/corne/2022-10-01%2016.29.28.jpg)
+![Fully soldered backside of the PCB](/images/corne/2022-10-01%2016.29.28.jpg)
 
 # 🔩 Step 2: Soldering the micro controllers
 
 I decided for this build to socket my microcontrollers. Easier to deal with in case... you know... Something goes afar. I used the MillMax Diode pins. Once everything was in place, I also added the reset button, and the sockets for the LCD.
 
-![](/images/corne/2022-10-16%2017.01.13.jpg)
+![Millmax sockets and reset button](/images/corne/2022-10-16%2017.01.13.jpg)
 
 Nothing exciting here, but of course I didn't pay attention to the polarity of the microcontroller, and had to desolder its 24 pins to flip it on the right side. I wanted to finish quicker and paid it it hours... Hopefully, being socketed I could do it without risking the whole PCB.
 
@@ -94,11 +95,11 @@ To load the firmware onto the nice!nano, it is as simple as it gets: double clic
 
 I mounted 3 or 4 switches to test that everything was good. Of course, At this step, I can only see if _these_ keys works, but at least it allowed me to make sure that the nice!nano and the computer were able to discuss.
 
-![](/images/corne/2022-10-16%2016.55.57.jpg)
+![Some switches to test](/images/corne/2022-10-16%2016.55.57.jpg)
 
-When convinced that everything was good, I went on and solder the last piece: the battery that I mounted directly on each nice!nano, with a switch to preserve battery life when I'm not using it. There is no use for it to try to connect if it is to idle.
+When convinced that everything was good, I went on and solder the last piece: the battery that I mounted directly on each nice!nano, with a kill-switch to preserve battery life when I'm not using it. There is no use for it to try to connect if it is to idle.
 
-![](/images/corne/2022-10-16%2016.55.11.jpg)
+![Battery with a killswitch](/images/corne/2022-10-16%2016.55.11.jpg)
 
 # ⌨️ Step 5: Mount the switch & keycaps
 
@@ -106,15 +107,17 @@ Once I made sure that the nice!nano responded nicely, the last step was to mount
 
 Mount the switches into the plate, **then** clip the whole thing together within the sockets. Having hotswap sockets save me a **huge** amount of time since I was able to mount and unmount it quite easily
 
-| ![](/images/corne/2022-10-16%2016.56.32.jpg) | ![](/images/corne/2022-10-16%2016.56.37.jpg) |
-| :------------------------------------------: | :------------------------------------------: |
-|               What I did first               |              What should be done             |
+| [![All switches but missing the switch plate][img5]][img5] | [![Switches in the switch plate][img6]][img6] |
+| :--------------------------------------------------------: | :-------------------------------------------: |
+|                      What I did first                      |              What should be done              |
 
 # 🎉 Step 6: Enjoy the Corne Keyboard
 
 After all this steps, everything worked... But the letter "F". I thought I was doomed, but luckily it was just the solder of the switch's socket that broke. A little more solder later, I was good to go. I tried the factory keymap for a while, but couldn't wrap my fingers around it. You can see my current keymap on my [github][11] (alongside actions and their results). Et voilà !
 
-![](/images/corne/2022-10-01%2016.30.23.jpg)
+![Corne KBD](/images/corne/2022-10-01%2016.30.23.jpg)
+
+<!-- LINKS -->
 
 [1]: https://www.littlekeyboards.com/collections/corne-cases/products/corne-comptroller-keyboard-case
 [2]: https://www.littlekeyboards.com/collections/carry-cases/products/corne-carry-case
@@ -127,3 +130,12 @@ After all this steps, everything worked... But the letter "F". I thought I was d
 [9]: https://aliexpress.com/item/32732458079.html
 [10]: https://zmk.dev/docs/user-setup
 [11]: https://github.com/Delni/zmk-config
+
+<!-- IMAGES -->
+
+[img1]: /images/corne/2022-10-01%2016.29.09.jpg
+[img2]: /images/corne/2022-10-01%2016.29.45.jpg
+[img3]: /images/corne/2022-10-01%2016.29.58.jpg
+[img4]: /images/corne/2022-10-01%2016.29.41.jpg
+[img5]: /images/corne/2022-10-16%2016.56.32.jpg
+[img6]: /images/corne/2022-10-16%2016.56.37.jpg
