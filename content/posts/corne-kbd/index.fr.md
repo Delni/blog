@@ -1,8 +1,8 @@
 ---
 title: "Clavier sans fil, low profile : Corne"
-date: 2022-07-23T15:50:01+02:00
+date: 2022-10-16T15:20:35+02:00
 author: Nicolas Delauney
-cover: /images/corne/cover-fr.png
+cover: resources/cover.fr.png
 tags:
   - claviers
   - build log
@@ -16,7 +16,7 @@ showFullContent: false
 readingTime: true
 draft: false
 hideComments: false
-lastmod: 2022-10-18T07:02:42.638Z
+lastmod: 2022-10-18T07:52:08.715Z
 ---
 
 Je suis tombé amoureux des claviers mécaniques depuis le jour (pas si lointain) où j'ai eu la chance de poser mes doigts sur l'un d'entre eux. Mon premier clavier était un Kickstarter, assez peu cher, mais je suis rapidement passé au Keychron K2. Ces deux claviers étaient sans-fils Bluetooth, ce qui est pratique et esthétique (pas de fils partout sur le bureau), encore plus vu que j'utilise un clavier sur plusieurs ordinateurs. Les différents profils me permettent de changer la destination au besoin.
@@ -54,11 +54,11 @@ Let's go !
 
 Les PCB ont besoins d'être libérés de leur plaques de montage. N'ayez pas peur de tordre les plaques, elles sont faites pour ça.
 
-![PCB Vierges](/images/corne/2022-10-01%2016.27.36.jpg)
+![PCB Vierges](resources/2022-10-01%2016.27.36.jpg)
 
 En suivant le buildlog de footsan, j'ai commencé avec les diodes SMD (_Surface Mounted Diodes_). Elles sont vraiment minuscules, et j'ai vérifié au moins 20 fois la polarité avant de commencer à souder :
 
-![La marque noire est la barre du schéma](/images/corne/2022-10-01%2016.29.18.jpg)
+![La marque noire est la barre du schéma](resources/2022-10-01%2016.29.18.jpg)
 
 Afin de souder ces toutes petites pièces, j'ai commencé par mettre du fil de soudure sur l'un des 2 pads, puis avec une pince à épiler inversée j'ai placé la diode pour refondre la soudure et pousser la diode dedans. Une fois fait pour toutes les diodes, j'ai pu souder l'autre côté facilement.
 
@@ -74,13 +74,13 @@ Ensuite j'ai soudé les sockets hotswap. C'est assez simple, elles rentrent faci
 
 Les soudures sur les plaques PCB sont presques finies ! Je n'ai pas ajouté de LED par touche, ni _underglow_, pour préserver l'autonomie.
 
-![PCB entièrement soudée](/images/corne/2022-10-01%2016.29.28.jpg)
+![PCB entièrement soudée](resources/2022-10-01%2016.29.28.jpg)
 
 # 🔩 Étape 2: Les micros controllers
 
 Pour ce clavier, j'ai décidé de "socket" mes microcontroller. C'est à dire, rajouter des "sockets" pour pouvoir les enlever facilement, comme pour les switchs. C'est bien plus simple pour gérer les problèmes si... vous voyez... Les choses ne se déroulent pas comme prévu. J'ai utilisé les pins fournies, un peu fines mais je n'ai pas eu de problèmes. Une fois tout ça en place, j'ai aussi rajouté le bouton de reset, et les sockets pour les écrans LCD.
 
-![Millmax sockets et bouton de reset](/images/corne/2022-10-16%2017.01.13.jpg)
+![Millmax sockets et bouton de reset](resources/2022-10-16%2017.01.13.jpg)
 
 Rien d'excitant ici, mais bien entendu je n'ai pas fait attention à la polarité de mon microcontroller, et j'ai dû déssouder les 24 fiches pour le retourner dans le bon sens. En voulant finir plus vite, j'ai perdu quelques heures. Heuresement, l'avoir "socketé" m'a permis de le faire sans risquer tout le circuit.
 
@@ -94,11 +94,11 @@ Pour charger le firmware sur le nice!nano, c'est bête comme chou : il suffit de
 
 J'ai monté 3 ou 4 switchs pour tester que tout allait bien. Bien sûr, à cette étape, je ne pouvais voir que si _ces_ touches marchaient, mais au moins cela m'a permis de m'assurer que le nice!nano et l'ordinateur étaient capables de discuter.
 
-![Quelques switchs de test](/images/corne/2022-10-16%2016.55.57.jpg)
+![Quelques switchs de test](resources/2022-10-16%2016.55.57.jpg)
 
 Une fois convaincu que tout marchait comme prévu, j'ai continué et j'ai soudé les dernières places : les batteries, que j'ai monté directement sur chaque nice!nano, avec un interrupteur pour préserver la vie de la batterie quand je ne l'utilise pas. Ça ne sert à rien qu'il essaye de se connecter si c'est pour ne rien faire ensuite.
 
-![Batterie avec interrupteur](/images/corne/2022-10-16%2016.55.11.jpg)
+![Batterie avec interrupteur](resources/2022-10-16%2016.55.11.jpg)
 
 # ⌨️ Étape 5: Monter les switchs et les keycaps
 
@@ -116,7 +116,7 @@ Après toutes ces étapes, tout marchait _du premier coup_... Sauf la lettre "F"
 
 Et voilà !
 
-![Corne KBD](/images/corne/2022-10-01%2016.30.23.jpg)
+![Corne KBD](resources/2022-10-01%2016.30.23.jpg)
 
 <!-- LINKS -->
 
@@ -134,9 +134,9 @@ Et voilà !
 
 <!-- IMAGES -->
 
-[img1]: /images/corne/2022-10-01%2016.29.09.jpg
-[img2]: /images/corne/2022-10-01%2016.29.45.jpg
-[img3]: /images/corne/2022-10-01%2016.29.58.jpg
-[img4]: /images/corne/2022-10-01%2016.29.41.jpg
-[img5]: /images/corne/2022-10-16%2016.56.32.jpg
-[img6]: /images/corne/2022-10-16%2016.56.37.jpg
+[img1]: resources/2022-10-01%2016.29.09.jpg
+[img2]: resources/2022-10-01%2016.29.45.jpg
+[img3]: resources/2022-10-01%2016.29.58.jpg
+[img4]: resources/2022-10-01%2016.29.41.jpg
+[img5]: resources/2022-10-16%2016.56.32.jpg
+[img6]: resources/2022-10-16%2016.56.37.jpg
