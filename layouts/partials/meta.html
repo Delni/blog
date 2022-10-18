@@ -15,6 +15,8 @@
     {{ end }}
   </div>
 
+  {{ partial "cover.html" . }}
+
   {{ if (.Params.Toc | default .Site.Params.Toc) }}
     <div class="table-of-contents">
       <h2>

@@ -13,9 +13,10 @@ keywords:
 description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 readingTime: true
 draft: false
-lastmod: 2022-10-18T12:10:34.495Z
+toc: true
 categories:
   - keyboard
+lastmod: 2022-10-18T12:12:10.648Z
 slug: corne-kbd
 ---
 
