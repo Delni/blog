@@ -1,6 +1,7 @@
 ---
 title: Wireless, Low Profile, Corne Keyboard Buildlog
 date: 2022-10-16T15:20:35.413Z
+author: Nicolas Delauney
 cover: /images/corne/cover-en.png
 tags:
   - keyboard
@@ -12,7 +13,7 @@ keywords:
 description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 readingTime: true
 draft: false
-lastmod: 2022-10-16T16:17:50.072Z
+lastmod: 2022-10-18T07:02:45.499Z
 categories:
   - keyboard
 slug: corne-kbd

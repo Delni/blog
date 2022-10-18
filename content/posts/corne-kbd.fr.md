@@ -1,6 +1,7 @@
 ---
 title: "Clavier sans fil, low profile : Corne"
 date: 2022-07-23T15:50:01+02:00
+author: Nicolas Delauney
 cover: /images/corne/cover-fr.png
 tags:
   - claviers
@@ -15,7 +16,7 @@ showFullContent: false
 readingTime: true
 draft: false
 hideComments: false
-lastmod: 2022-10-16T16:54:40.649Z
+lastmod: 2022-10-18T07:02:42.638Z
 ---
 
 Je suis tombé amoureux des claviers mécaniques depuis le jour (pas si lointain) où j'ai eu la chance de poser mes doigts sur l'un d'entre eux. Mon premier clavier était un Kickstarter, assez peu cher, mais je suis rapidement passé au Keychron K2. Ces deux claviers étaient sans-fils Bluetooth, ce qui est pratique et esthétique (pas de fils partout sur le bureau), encore plus vu que j'utilise un clavier sur plusieurs ordinateurs. Les différents profils me permettent de changer la destination au besoin.
