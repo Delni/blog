@@ -15,8 +15,7 @@ description: Comment j'ai construit mon premier clavier mécanique.
 showFullContent: false
 readingTime: true
 draft: false
-hideComments: false
-lastmod: 2022-10-18T07:52:08.715Z
+lastmod: 2022-10-18T08:56:24.850Z
 ---
 
 Je suis tombé amoureux des claviers mécaniques depuis le jour (pas si lointain) où j'ai eu la chance de poser mes doigts sur l'un d'entre eux. Mon premier clavier était un Kickstarter, assez peu cher, mais je suis rapidement passé au Keychron K2. Ces deux claviers étaient sans-fils Bluetooth, ce qui est pratique et esthétique (pas de fils partout sur le bureau), encore plus vu que j'utilise un clavier sur plusieurs ordinateurs. Les différents profils me permettent de changer la destination au besoin.
@@ -29,7 +28,7 @@ Voici donc mon buildlog, en espérant que ça puisse en aider certains d'entre v
 
 Let's go !
 
-# Étape 0: rassembler les pièces
+## 📦 Étape 0: rassembler les pièces
 
 |  Pièce                               | Vendeur              | Quantité |
 | :----------------------------------- | :------------------- | :------: |
@@ -50,7 +49,7 @@ Let's go !
 | Wireless Controller Expansion Bundle | [splitkb.com][8]     |    1     |
 | 301230 Lithium 3.7V                  | [AliExpress][9]      |    2     |
 
-# 🛠 Étape 1: Pour bien commencer
+## 🛠 Étape 1: Pour bien commencer
 
 Les PCB ont besoins d'être libérés de leur plaques de montage. N'ayez pas peur de tordre les plaques, elles sont faites pour ça.
 
@@ -76,7 +75,7 @@ Les soudures sur les plaques PCB sont presques finies ! Je n'ai pas ajouté de L
 
 ![PCB entièrement soudée](resources/2022-10-01%2016.29.28.jpg)
 
-# 🔩 Étape 2: Les micros controllers
+## 🔩 Étape 2: Les micros controllers
 
 Pour ce clavier, j'ai décidé de "socket" mes microcontroller. C'est à dire, rajouter des "sockets" pour pouvoir les enlever facilement, comme pour les switchs. C'est bien plus simple pour gérer les problèmes si... vous voyez... Les choses ne se déroulent pas comme prévu. J'ai utilisé les pins fournies, un peu fines mais je n'ai pas eu de problèmes. Une fois tout ça en place, j'ai aussi rajouté le bouton de reset, et les sockets pour les écrans LCD.
 
@@ -84,13 +83,13 @@ Pour ce clavier, j'ai décidé de "socket" mes microcontroller. C'est à dire, r
 
 Rien d'excitant ici, mais bien entendu je n'ai pas fait attention à la polarité de mon microcontroller, et j'ai dû déssouder les 24 fiches pour le retourner dans le bon sens. En voulant finir plus vite, j'ai perdu quelques heures. Heuresement, l'avoir "socketé" m'a permis de le faire sans risquer tout le circuit.
 
-# ⚙️ Étape 3: Installation de ZMK
+## ⚙️ Étape 3: Installation de ZMK
 
 [ZMK](https://zmk.dev) est très simple à utiliser. Ils ont développé un système de build sur les Github Actions, donc je n'ai eu qu'à créer un repository, lancer leur petit CLI et j'étais prêt. Il suffit de suivre la [doc ici][10]. Chaque action donnera un firmware que je n'aurai plus qu'à copier sur le clavier. Notez que pour une mise à jour de la keymap, seul le "main" (partie de gauche) doit être mis à jour.
 
 Pour charger le firmware sur le nice!nano, c'est bête comme chou : il suffit de double cliquer sur le bouton de reset, et le controller se comporte comme une clé USB sur l'ordinateur.
 
-# 🧟 Étape 4: Test, est-ce que ça marche ??
+## 🧟 Étape 4: Test, est-ce que ça marche ??
 
 J'ai monté 3 ou 4 switchs pour tester que tout allait bien. Bien sûr, à cette étape, je ne pouvais voir que si _ces_ touches marchaient, mais au moins cela m'a permis de m'assurer que le nice!nano et l'ordinateur étaient capables de discuter.
 
@@ -100,7 +99,7 @@ Une fois convaincu que tout marchait comme prévu, j'ai continué et j'ai soudé
 
 ![Batterie avec interrupteur](resources/2022-10-16%2016.55.11.jpg)
 
-# ⌨️ Étape 5: Monter les switchs et les keycaps
+## ⌨️ Étape 5: Monter les switchs et les keycaps
 
 Quand je me suis assuré que les nice!nano répondaient correctement, la dernière étape était de monter les switchs dans les sockets, puis de mettre la switch-plate, et de tout visser ensemble... Mais, non, c'est pas ça 🤦‍♂️
 
@@ -110,7 +109,7 @@ Monter les switchs sur la switch-plate, **puis** enclipser le tout dans les sock
 | :----------------------------------------------------: | :-----------------------------------------------: |
 |              Ce que j'ai fait en premier               |              Ce que j'aurai dû faire              |
 
-# 🎉 Étape 6: Profiter
+## 🎉 Étape 6: Profiter
 
 Après toutes ces étapes, tout marchait _du premier coup_... Sauf la lettre "F". Alors que je me croyais maudit, j'ai découvert que c'était simplement une soudure qui avait cassé. Un coup de fer à souder plus tard, tout fonctionnait. J'ai essayé la keymap par défaut, mais assez rapidement je l'ai modifiée pour qu'elle me soit plus "naturelle". Ma keymap actuelle est disponible sur le [github][11] dont je parlais précédemment.
 

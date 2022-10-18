@@ -5,15 +5,17 @@ defaultContentLanguageInSubdir: true
 author: Nicolas Delauney
 title: "Delni :: Blog"
 copyright: © 2022 - Nicolas Delauney
-
-# owner = 'Nicolas Delauney'
+owner: Nicolas Delauney
 authorTwitter: Delni_
 # paginate = 5
 # keywords = ""
 
 params:
   showLanguageSelector: true
+  showLastUpdated: false
+  oneHeadingSize: false
   centerTheme: true
+  ToC: false
   favicon: /images/favicon.png
   logo:
     logoText: Delni
@@ -61,6 +63,7 @@ languages:
     readMore: Lire plus
     menuMore: Plus
     readOtherPosts: Lires les autres articles
+    TocTitle: Sommaire
     menu:
       main:
         - identifier: about

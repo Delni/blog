@@ -13,7 +13,7 @@ keywords:
 description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 readingTime: true
 draft: false
-lastmod: 2022-10-18T07:28:49.942Z
+lastmod: 2022-10-18T08:55:06.762Z
 categories:
   - keyboard
 slug: corne-kbd
@@ -29,7 +29,7 @@ Here is my buildlog, in hope that it may help some of you out there;
 
 Let's go !
 
-# Step 0: get the pieces
+## 📦 Step 0: get the pieces
 
 |  Piece                               | Seller               |  Quantity |
 | :----------------------------------- | :------------------- | :-------: |
@@ -50,7 +50,7 @@ Let's go !
 | Wireless Controller Expansion Bundle | [splitkb.com][8]     |     1     |
 | 301230 Lithium 3.7V                  | [AliExpress][9]      |     2     |
 
-# 🛠 Step 1: Getting started
+## 🛠 Step 1: Getting started
 
 The PCB needs to break free of the mounting points. Don't be afraid to bend the plates, they are made for it.
 
@@ -76,7 +76,7 @@ The PCB is now almost ready! I did not put any LED to preserve my battery life
 
 ![Fully soldered backside of the PCB](resources/2022-10-01%2016.29.28.jpg)
 
-# 🔩 Step 2: Soldering the micro controllers
+## 🔩 Step 2: Soldering the micro controllers
 
 I decided for this build to socket my microcontrollers. Easier to deal with in case... you know... Something goes sideways. I used the MillMax Diode pins. Once everything was in place, I also added the reset button, and the sockets for the LCD.
 
@@ -84,13 +84,13 @@ I decided for this build to socket my microcontrollers. Easier to deal with in c
 
 Nothing exciting here, but of course I didn't pay attention to the polarity of the microcontroller, and had to desolder its 24 pins to flip it on the right side. I wanted to finish quicker and paid it it hours... Hopefully, being socketed I could do it without risking the whole PCB.
 
-# ⚙️ Step 3: Install ZMK
+## ⚙️ Step 3: Install ZMK
 
 [ZMK](https://zmk.dev) is pretty straight forward to use. They developped a build system relying on Github Actions, so I really just created the repository, launch the little CLI provided and I was good to go, following the [docs here][10]. Every action will output a firmware that I can flash into the keyboard in a breeze. Note that for keymap update, only the main (left) is required to be updated.
 
 To load the firmware onto the nice!nano, it is as simple as it gets: double click on the reset button, and the controller should show as a USB storage on your computer.
 
-# 🧟 Step 4: Test, is it alive ??
+## 🧟 Step 4: Test, is it alive ??
 
 I mounted 3 or 4 switches to test that everything was good. Of course, at this step, I can only see if _these_ keys works, but at least it allowed me to make sure that the nice!nano and the computer were able to discuss.
 
@@ -100,7 +100,7 @@ When convinced that everything was good, I went on and solder the last piece: th
 
 ![Battery with a killswitch](resources/2022-10-16%2016.55.11.jpg)
 
-# ⌨️ Step 5: Mount the switch & keycaps
+## ⌨️ Step 5: Mount the switch & keycaps
 
 Once I made sure that the nice!nano responded nicely, the last step was to mount the switches in the sockets, then mount the switch plates and screw all this together... But wait, that's not the order 🤦‍♂️
 
@@ -110,7 +110,7 @@ Mount the switches into the plate, **then** clip the whole thing together within
 | :--------------------------------------------------------: | :-------------------------------------------: |
 |                      What I did first                      |              What should be done              |
 
-# 🎉 Step 6: Enjoy the Corne Keyboard
+## 🎉 Step 6: Enjoy the Corne Keyboard
 
 After all this steps, everything worked... But the letter "F". I thought I was doomed, but luckily it was just the solder of the switch's socket that broke. A little more solder later, I was good to go. I tried the factory keymap for a while, but couldn't wrap my fingers around it. You can see my current keymap on my [github][11] (alongside actions and their results). Et voilà !
 
