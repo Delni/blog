@@ -2,8 +2,7 @@
 title: "Clavier sans fil, low profile : Corne"
 date: 2022-10-16T15:20:35+02:00
 author: Nicolas Delauney
-cover: resources/cover-fr.png
-preview: resources/cover-fr.png
+cover: /images/corne-kbd/cover.fr.png
 tags:
   - claviers
   - build log
@@ -16,7 +15,7 @@ description: Comment j'ai construit mon premier clavier mécanique.
 showFullContent: false
 readingTime: true
 draft: false
-lastmod: 2022-10-18T11:59:35.051Z
+lastmod: 2022-10-18T12:10:37.895Z
 ---
 
 Je suis tombé amoureux des claviers mécaniques depuis le jour (pas si lointain) où j'ai eu la chance de poser mes doigts sur l'un d'entre eux. Mon premier clavier était un Kickstarter, assez peu cher, mais je suis rapidement passé au Keychron K2. Ces deux claviers étaient sans-fils Bluetooth, ce qui est pratique et esthétique (pas de fils partout sur le bureau), encore plus vu que j'utilise un clavier sur plusieurs ordinateurs. Les différents profils me permettent de changer la destination au besoin.
