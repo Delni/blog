@@ -15,6 +15,10 @@
 	}
 }
 
+code, kbd {
+	background: rgb(194, 194, 209,.2)
+}
+
 body {
 	background: var(--background);
 	color: var(--color);
