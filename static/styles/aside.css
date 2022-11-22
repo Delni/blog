@@ -1,0 +1,26 @@
+/* ASIDE CONFIGURATION */
+.content {
+	position: relative;
+}
+
+aside {
+	position: sticky;
+	top: 45px;
+	margin-bottom: -45px;
+	margin-left: -250px;
+	width: 242px;
+	height: 0;
+}
+aside .post-meta {
+	margin: 0;
+}
+aside .post-meta span,
+aside .post-tags span {
+	display: block;
+}
+
+@media screen and (max-width: calc(864px + 450px)) {
+	aside {
+		visibility: hidden;
+	}
+}

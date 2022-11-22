@@ -1,9 +1,13 @@
+@import url('./styles/reset.css');
+@import url('./styles/aside.css');
+
 :root {
 	--accent: #272736;
 	--background: white;
 	--color: black;
 	--border-color: var(--background);
 	--border-width: 10px;
+	--code-bg: rgb(194, 194, 209,.2)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,83 +16,5 @@
 		--background: #272736;
 		--color: white;
 		--border-color: var(--background);
-	}
-}
-
-code, kbd {
-	background: rgb(194, 194, 209,.2)
-}
-
-body {
-	background: var(--background);
-	color: var(--color);
-}
-
-.logo {
-	color: var(--background);
-}
-
-.language-selector__more {
-	width: max-content;
-	text-align: right;
-}
-
-.language-selector__more li {
-	margin: 0 !important;
-}
-
-.menu a {
-	text-decoration: none;
-}
-
-.menu a:hover,
-.menu a:active {
-	text-decoration: underline;
-}
-
-.post-meta {
-	color: var(--accent);
-	opacity: 70%;
-}
-
-.hanchor {
-	color: var(--accent);
-	opacity: 90%;
-}
-
-.post-cover {
-	border-width: var(--border-width);
-	padding: var(--border-width);
-}
-
-.header .menu,
-.header .menu .language-selector__more {
-	color: var(--color);
-}
-
-/* ASIDE CONFIGURATION */
-.content {
-	position: relative;
-}
-
-aside {
-	position: sticky;
-	top: 45px;
-	margin-bottom: -45px;
-	margin-left: -250px;
-	width: 242px;
-	height: 0;
-}
-aside .post-meta {
-	margin: 0;
-}
-aside .post-meta span,
-aside .post-tags span {
-	display: block;
-}
-
-@media screen and (max-width: calc(864px + 450px)) {
-	aside {
-		visibility: hidden;
-	}
+	}	
 }

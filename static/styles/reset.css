@@ -1,0 +1,60 @@
+code, kbd {
+	background: rgb(194, 194, 209,.25)
+}
+
+* {
+	transition: color 1s ease, background 1s ease;
+}
+
+body {
+	background: var(--background);
+	color: var(--color);
+}
+
+.logo {
+	color: var(--background);
+}
+
+.language-selector__more {
+	width: max-content;
+	text-align: right;
+}
+
+.language-selector__more li {
+	margin: 0 !important;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active {
+	text-decoration: underline;
+}
+
+.post-meta {
+	color: var(--accent);
+	opacity: 70%;
+}
+
+.hanchor {
+	color: var(--accent);
+	opacity: 90%;
+}
+
+.post-cover {
+	border-width: var(--border-width);
+	padding: var(--border-width);
+}
+
+.header .menu,
+.header .menu .language-selector__more {
+	color: var(--color);
+}
+
+@media (prefers-color-scheme: light) {
+	.code-toolbar {
+	  background: var(--accent) !important;
+	}
+}
