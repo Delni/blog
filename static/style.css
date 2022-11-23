@@ -1,13 +1,24 @@
 @import url('./styles/reset.css');
 @import url('./styles/aside.css');
+@import url('./styles/notes.css');
 
 :root {
 	--accent: #272736;
 	--background: white;
-	--color: black;
+	--color: #272736;
 	--border-color: var(--background);
 	--border-width: 10px;
-	--code-bg: rgb(194, 194, 209,.2)
+
+	/* Colors */
+	--code-bg: rgb(194, 194, 209,.2);
+	--info: #4b5bab;
+	--info-bg: rgba(75, 91, 171, .2);
+	--warning: #ffb570;
+	--warning-bg: rgba(255, 181, 112,.2);
+	--danger: #b0305c;
+	--danger-bg: rgba(176, 48, 92,.2);
+	--success: #3ca370;
+	--success-bg: rgba(60, 163, 112,.2);
 }
 
 @media (prefers-color-scheme: dark) {
