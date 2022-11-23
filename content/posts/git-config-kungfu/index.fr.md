@@ -9,11 +9,12 @@ keywords:
   - gitconfig
 description: Améliorez votre quotidien git avec ces astuces gitconfig
 readingTime: true
-draft: true
+draft: false
 categories:
   - tech
-lastmod: 2022-11-23T10:54:37.820Z
+lastmod: 2022-11-23T10:59:11.132Z
 cover: /images/git-config/cover.fr.png
+date: 2022-11-23T11:00:00.509Z
 ---
 
 Git est un outil extrèmement performant, mais il peut l'être encore plus avec la bonne configuration. Si vous utilisez git, peut-être que certaines de ces astuces vous seront utiles ! Évidemment, dans cet article nous allons beaucoup jouer avec la sous-commande `git config`.
