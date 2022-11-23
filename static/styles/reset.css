@@ -58,3 +58,7 @@ body {
 	  background: var(--accent) !important;
 	}
 }
+
+hr {
+	background: var(--accent)
+}
