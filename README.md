@@ -14,8 +14,12 @@ The theme used for this blog ([Terminal](https://themes.gohugo.io/themes/hugo-th
 git submodule init
 git submodule update
 ```
-## Run locally
+## Run 💻
 
 ```sh
 hugo serve -D
 ```
+
+## Deploy 🚀
+
+See [Github Deploy workflow](./.github/workflows/deploy.yml). You should have nothing to do 😉
