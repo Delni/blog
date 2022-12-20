@@ -8,4 +8,5 @@ description:
 readingTime: true
 draft: true
 categories:
+cover: https://via.placeholder.com/1200x600
 ---
