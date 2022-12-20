@@ -6,4 +6,7 @@
 	"[markdown]": {
 		"editor.quickSuggestions": true
 	},
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": "${workspace}/.github/workflows/deploy.yml"
+	},
 }

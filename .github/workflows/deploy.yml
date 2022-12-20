@@ -1,7 +1,13 @@
 name: Deploy Blog
 
 on: 
-  push
+  push:
+    paths:
+      - archetypes
+      - content
+      - layout
+      - resources
+      - static
 
 jobs:
   build:
