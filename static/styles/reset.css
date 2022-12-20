@@ -73,3 +73,7 @@ a.button:hover:not(.read-more) {
 	background-color: var(--accent);
 	color: var(--background);
 }
+
+.pagination__title-h {
+	color: white
+}
