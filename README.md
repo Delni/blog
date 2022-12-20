@@ -5,3 +5,17 @@
 
 
 Small repo to host my personal blog
+
+## Install ⬇️
+
+See [Hugo installation page](https://gohugo.io/installation/).  
+The theme used for this blog ([Terminal](https://themes.gohugo.io/themes/hugo-theme-terminal/)) is a git submodule. To install it :
+```sh
+git submodule init
+git submodule update
+```
+## Run locally
+
+```sh
+hugo serve -D
+```
