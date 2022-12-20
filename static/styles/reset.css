@@ -3,7 +3,7 @@ code, kbd {
 }
 
 * {
-	transition: color 1s ease, background 1s ease;
+	transition: color .25s ease, background .5s ease;
 }
 
 body {
@@ -61,4 +61,15 @@ body {
 
 hr {
 	background: var(--accent)
+}
+
+a.button:not(.read-more) {
+	border-radius: 8px;
+	background-color: var(--background);
+	border-color: var(--accent);
+}
+
+a.button:hover:not(.read-more) {
+	background-color: var(--accent);
+	color: var(--background);
 }

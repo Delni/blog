@@ -16,6 +16,10 @@
     {{- end -}}
   </div>
 
+  {{ if .Params.series }}
+  {{ partial "series_pagination.html" . }}
+  {{ end }}
+
   {{ if eq .Type $.Site.Params.contentTypeName }}
   {{ partial "posts_pagination.html" . }}
   {{ end }}

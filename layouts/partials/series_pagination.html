@@ -1,0 +1,41 @@
+{{ $serie := anchorize .Params.series }}
+{{ $current_page := . }}
+
+{{ with $.Site.GetPage "series" $serie }}
+    {{ range .Data.Pages.ByDate }}
+        {{ if eq . $current_page }}
+          {{ $.Scratch.Set "previous_page" ($.Scratch.Get "previous_pointer") }}
+        {{ end }}
+        {{ if eq ($.Scratch.Get "previous_pointer") $current_page }}
+          {{ $.Scratch.Set "next_page" . }}
+        {{ end }}
+
+        {{ $.Scratch.Set "previous_pointer" . }}
+    {{ end}}
+{{ end }}
+
+{{ $NextInSerie := $.Scratch.Get "next_page" }}
+{{ $PreviousInSerie := $.Scratch.Get "previous_page" }}
+
+{{ if or $NextInSerie $PreviousInSerie }}
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">{{ $.Site.Params.ReadOtherPostsInSerie }}</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        {{ if $PreviousInSerie }}
+        <a href="{{ $PreviousInSerie.Permalink }}" class="button next">
+            <span class="button__icon">←&nbsp;</span>
+            <span class="button__text">{{ strings.TrimPrefix (printf "%s - " .Params.series) $PreviousInSerie.Title }}</span>
+        </a>
+        {{ end }}
+        {{ if $NextInSerie }}
+        <a href="{{ $NextInSerie.Permalink }}" class="button previous">
+            <span class="button__text">{{ strings.TrimPrefix (printf "%s - " .Params.series)  $NextInSerie.Title }}</span>
+            <span class="button__icon">&nbsp;→</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

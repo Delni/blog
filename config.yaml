@@ -10,6 +10,11 @@ authorTwitter: Delni_
 # paginate = 5
 # keywords = ""
 
+taxonomies:
+  tag: tags
+  category: categories
+  serie: series
+
 params:
   showLanguageSelector: true
   showLastUpdated: false
@@ -33,6 +38,7 @@ languages:
     readMore: Read more
     menuMore: More
     readOtherPosts: Read other posts
+    readOtherPostsInSerie: Read other posts in this serie
     missingContentMessage: Page not found...
     missingBackButtonLabel: Back to home page
 
@@ -42,14 +48,18 @@ languages:
           name: About
           url: /en/about
           weight: 1
-        - identifier: tags
-          name: Tags
-          url: /en/tags
-          weight: 2
         - identifier: posts
           name: Posts
           url: /en/posts
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: /en/tags
           weight: 3
+        - identifier: series
+          name: Series
+          url: /en/series
+          weight: 4
 
     params:
       logo:
@@ -62,7 +72,8 @@ languages:
     missingBackButtonLabel: Retourner au début
     readMore: Lire plus
     menuMore: Plus
-    readOtherPosts: Lires les autres articles
+    readOtherPosts: Lire les autres articles
+    readOtherPostsInSerie: Lire les autres articles de cette série
     TocTitle: Sommaire
     menu:
       main:
@@ -73,11 +84,15 @@ languages:
         - identifier: tags
           name: Tags
           url: /fr/tags
-          weight: 2
+          weight: 3
         - identifier: posts
           name: Articles
           url: /fr/posts
-          weight: 3
+          weight: 2
+        - identifier: series
+          name: Séries
+          url: /fr/series
+          weight: 4
     params:
       logo:
         logoText: Delni
