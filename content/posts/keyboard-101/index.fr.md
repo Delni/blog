@@ -1,5 +1,5 @@
 ---
-title: Le b.a.—ba des claviers
+title: "Les claviers - Partie 1 : Anatomie"
 date: 2022-10-01T09:00:00+02:00
 author: Nicolas Delauney
 tags:
@@ -11,7 +11,7 @@ description: Nous utilisons des claviers tous les jours, mais connaissez vous vr
 readingTime: true
 draft: true
 categories: null
-lastmod: 2022-11-15T14:35:17.247Z
+lastmod: 2022-12-20T08:19:31.979Z
 ---
 
 Les claviers, ces objets de tous les jours. Tout le monde en a, mais est-ce que vous savez ce qui se cache derrière ? Des _layouts_ aux _profils_, des claviers à membranes aux claviers mécaniques, découvrons ensemble ce monde merveilleux.
@@ -20,7 +20,7 @@ Les claviers, ces objets de tous les jours. Tout le monde en a, mais est-ce que 
 
 ### Fonctionnement
 
-Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relaché le courant ne passe pas. C'est grâce à ça que le controlleur du claiver ensuite interprète la position de l'interupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux:
+Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relaché le courant ne passe pas. C'est grâce à ça que le controlleur du clavier ensuite interprète la position de l'interupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux:
 
 ```goat
 .-o--o--o--o--o--o--
@@ -44,19 +44,19 @@ Tous les claviers, qu'ils soient à membrane ou mécaniques (détail juste en de
 
 ## Clavier à membrane
 
-Les claviers les plus courants et les moins chers sur le marché. Le principe est simple : une **membrane** composée de 3 couches : la couche de contact, une couche intermédiaire, et la couche active. La couche intermédiaire est trouée, pour permettre à l'endroit de chaque touche le contact entre les deux couches externes.
+Les claviers les plus courants et les moins chers sur le marché. Le principe est simple : une **membrane** composée de 3 couches : la couche de contact, une couche intermédiaire, et la couche active. La couche intermédiaire est trouée, pour permettre à l'endroit du trou de chaque touche le contact entre les deux couches externes.
 
->```goat
->               -+-+---v---+-+-+       +-+-+---v---+-+---v---+-+-  <------ couche supérieure
->                |/|       |/|  |     |  |/|       |/|       |/|
->                |/|       |/|  |     |  |/|       |/|       |/|   <------ couche trouée
->                |/|       |/|   '-v-'   |/|       |/|       |/|
->               -+-+---^---+-+-----^-----+-+---^---+-+---^---+-+-  <------ couche inférieure
->              
->                                  ^
->                                  |       une touche enfoncée       
->                                   '-provoque le contact électrique 
->```
+> ```goat
+>      -+-+---v---+-+-+       +-+-+---v---+-+---v---+-+-  <------ couche de contact
+>       |/|       |/|  |     |  |/|       |/|       |/|
+>       |/|       |/|  |     |  |/|       |/|       |/|   <------ couche trouée
+>       |/|       |/|   '-v-'   |/|       |/|       |/|
+>      -+-+---^---+-+-----^-----+-+---^---+-+---^---+-+-  <------ couche active
+>
+>                         ^
+>                         |       une touche enfoncée
+>                          '-provoque le contact électrique
+> ```
 
 Ils sont donc très silencieux puisque les membranes en plastiques se déforment "en douceur", mais en vieillissant la membrane peu devenir plus souple, ce qui va amener à des touches non comptées, ou des touches qui ne remontent pas après la frappe... Et si la membrane casse à un endroit, il faut changer tout le clavier.
 
@@ -72,33 +72,6 @@ Ils sont donc très silencieux puisque les membranes en plastiques se déforment
 | ✅ Grande longévité    | ❌ Onéreux       |
 | ✅ Réparabilité        | ❌ Bruyants      |
 | ✅ Customizable à fond |                  |
-
-<!-- ```goat
-                .----------------------------------.
-               | Do you need a mechanical keyboard? |
-                '----------------------------------'
-
-               .------------------------.
-              /                          \
-         .---+     You use a keyboard     +----------------.
-        |     \                          /                  |
-        no     '------------------------'                  yes
-        |                                                   |
-        v                                                   v
- +------+-------+      .--------.                        .-----.
- | Weird but ok |   .-| For work |<----.      .-- yes --+ Daily |
- +--------------+  |   '--------'       |    |           '-----'
-                   |                    +----+              |
-                   |   .----------.     |    |              no
-                   +--| For gaming |<--'     |              |
-                   |   '----------'          |              v
-                   |                         |      .--------------.
-                   v                          '----+ Ok but is it … |
-       +-----------+-----------+                    '--------------'
-       | You need a mechanical |
-       |        keyboard       |
-       +-----------------------+
-``` -->
 
 #### Switchs
 
