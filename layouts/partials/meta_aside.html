@@ -1,4 +1,13 @@
-{{ .Title | markdownify }}
+{{ if .Params.series }}
+<div class="post-serie">
+  <span>
+    <a href="{{ (urlize (printf "series/%s/" (anchorize .Params.series ))) | absLangURL }}">{{ .Params.series }}</a>
+  </span>
+</div>
+{{ end }}
+
+{{ strings.TrimPrefix (printf "%s - " .Params.series) .Title | markdownify }}
+
 <div class="post-meta">
   {{ if and (.Param "readingTime") (eq (.Param "readingTime") true) }}
   <span class="post-reading-time"> {{ .ReadingTime }} min read</span>
@@ -17,7 +26,7 @@
   {{ end }}
   —
 </div>
-  {{ if .Params.tags }}
+{{ if .Params.tags }}
   <div class="post-tags">
     {{ range .Params.tags }}
     <span>
@@ -25,4 +34,4 @@
     </span>
     {{ end }}
   </div>
-  {{ end }}
+{{ end }}

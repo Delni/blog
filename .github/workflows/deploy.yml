@@ -5,7 +5,7 @@ on:
     paths:
       - 'archetypes/**'
       - 'content/**'
-      - 'layout/**'
+      - 'layouts/**'
       - 'resources/**'
       - 'static/**'
 

@@ -4,7 +4,11 @@
 	"frontMatter.content.fmHighlight": false,
 	"frontMatter.preview.host": "http://localhost:1313/",
 	"[markdown]": {
-		"editor.quickSuggestions": true
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		}
 	},
 	"yaml.schemas": {
 		"https://json.schemastore.org/github-workflow.json": "${workspace}/.github/workflows/deploy.yml"
