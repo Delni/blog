@@ -3,11 +3,11 @@ name: Deploy Blog
 on: 
   push:
     paths:
-      - archetypes
-      - content
-      - layout
-      - resources
-      - static
+      - 'archetypes/**'
+      - 'content/**'
+      - 'layout/**'
+      - 'resources/**'
+      - 'static/**'
 
 jobs:
   build:
