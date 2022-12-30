@@ -1,7 +1,0 @@
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="{{ .Param "cover" | absURL }}" />
-<meta
-	property="twitter:description"
-	content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else if .Description}}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}"
-/>
