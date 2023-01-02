@@ -23,3 +23,10 @@ hugo serve -D
 ## Deploy 🚀
 
 See [Github Deploy workflow](./.github/workflows/deploy.yml). You should have nothing to do 😉
+
+## Cover guidelines 📏
+
+- Cover image should be 1200x600px
+- Font is Manometer Sans
+- Main title: 100-120pt, #fff with a #000 border (3pt)
+- Subtitle: 50pt, #c2c3d1 with a #000 border (2pt)
