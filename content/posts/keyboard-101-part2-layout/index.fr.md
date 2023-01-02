@@ -11,8 +11,8 @@ readingTime: true
 draft: true
 categories:
   - claviers
-lastmod: 2022-12-20T13:04:44.317Z
-date: 2022-12-20T09:18:51.336Z
+lastmod: 2023-01-02T08:27:08.048Z
+date: 2023-01-02T09:00:00.000Z
 cover: https://via.placeholder.com/1200x600
 series: La théorie des claviers
 ---

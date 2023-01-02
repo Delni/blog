@@ -1,6 +1,6 @@
 ---
 title: "La théorie des claviers - Partie 3 : Keycaps & Switchs"
-date: 2022-12-20T10:40:27+01:00
+date: 2023-01-03T09:00:00.000Z
 author: Nicolas Delauney
 tags:
   - claviers
@@ -14,7 +14,7 @@ draft: true
 categories:
   - claviers
 cover: https://via.placeholder.com/1200x600
-lastmod: 2022-12-20T16:08:38.493Z
+lastmod: 2023-01-02T08:27:16.851Z
 series: La théorie des claviers
 ---
 
