@@ -12,19 +12,42 @@
     "build log",
     "buildlog",
     "claviers",
+    "config",
+    "git",
     "keyboard"
   ],
   "frontMatter.taxonomy.categories": [
-    "keyboard"
+    "claviers",
+    "keyboard",
+    "tech"
+  ],
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+      "id": "series",
+      "options": [
+        "La théorie des claviers",
+        "Keyboard 101"
+      ]
+    }
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "post",
       "pageBundle": false,
       "fields": [
         {
           "title": "Title",
           "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Content preview",
+          "name": "cover",
+          "type": "image"
+        },
+        {
+          "title": "author",
+          "name": "author",
           "type": "string"
         },
         {
@@ -40,14 +63,8 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "cover",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "boolean"
+          "name": "divider",
+          "type": "divider"
         },
         {
           "title": "Reading Time",
@@ -55,9 +72,18 @@
           "type": "boolean"
         },
         {
-          "title": "Hide Comments",
-          "name": "hideComments",
+          "title": "Draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Toc",
+          "name": "toc",
           "type": "boolean"
+        },
+        {
+          "name": "divider",
+          "type": "divider"
         },
         {
           "title": "Tags",
@@ -65,24 +91,21 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "choice",
-          "choices": [
-            "keyboard",
-            "corne",
-            "buildlog"
-          ]
+          "title": "series",
+          "name": "series",
+          "type": "taxonomy",
+          "taxonomyId": "series"
         },
         {
           "title": "lastmod",
           "name": "lastmod",
           "type": "datetime"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "choice",
+          "choices": ["post"]
         }
       ]
     }
