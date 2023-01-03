@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part1-anatomy/cover.fr.png
 description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
   petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T10:19:58.561Z
+lastmod: 2023-01-03T10:27:19.115Z
 author: Nicolas Delauney
 tags:
   - claviers
@@ -79,7 +79,7 @@ Les claviers les plus courants et les moins chers sur le marché. Le principe es
 
 Ils sont donc très silencieux puisque les membranes en plastiques se déforment "en douceur", mais en vieillissant la membrane peu devenir plus souple, ce qui va amener à des touches non comptées, ou des touches qui ne remontent pas après la frappe... Et si la membrane casse à un endroit, il faut changer tout le clavier. Facile à produire, ils sont majoritairement conçu entièrement en plastiques. Ils sont donc assez légers, de toute les formes et de toutes les tailles, parfois même souple ... Si vous ne savez pas quel genre de clavier vous avez, il est sûrement à membrane (car pour les claviers mécaniques, être mécanique fait partie des arguments de vente 😛).
 
-| Points positifs |  Points négatifs                |
+| Points positifs | Points négatifs                |
 | :-------------- | :------------------------------ |
 | ✅ Pas cher     | ❌ Peu durable                  |
 | ✅ Silencieux   | ❌ Confort de frappe peu étudié |
@@ -94,7 +94,7 @@ Pour tenir ces switchs, de tels claviers possèdent une _switch plate_, une plaq
 
 En plus, la plupart des switchs sont standardisés. La marque la plus connue, [Cherry MX][cherry-mx], a donné le _la_ de cette industrie, et vous trouverez souvent des "cherry clones", signifiant qu'ils suivent les mêmes spécifications. Chaque catégorie de switch va changer l'expérience de frappe, ce qui permettra à chacun.e de trouver le confort de frappe qui lui convient.
 
-| Points positifs        |  Points négatifs            |
+| Points positifs        | Points négatifs            |
 | :--------------------- | :-------------------------- |
 | ✅ Grande longévité    | ❌ Onéreux (comparé à un clavier membrane)|
 | ✅ Réparabilité        | ❌ Bruyants (il paraît 😜)  |
