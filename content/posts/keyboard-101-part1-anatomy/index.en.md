@@ -4,14 +4,14 @@ cover: /images/keyboard-101-part1-anatomy/cover.en.png
 description: We are using keyboards every day, but do you really know those tiny creatures?
   Quick overview and glossary to go further.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T10:13:06.393Z
+lastmod: 2023-01-03T10:19:50.156Z
 author: Nicolas Delauney
 tags:
   - keyboard
 keywords:
   - keyboard
 readingTime: true
-draft: true
+draft: false
 series: Keyboard 101
 ---
 
