@@ -1,19 +1,17 @@
 ---
 title: "La théorie des claviers - Partie 2 : Formats"
+cover: https://via.placeholder.com/1200x600
+description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
+  ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant!"
+date: 2023-01-02T09:00:00.000Z
+lastmod: 2023-01-02T08:27:08.048Z
 author: Nicolas Delauney
 tags:
   - claviers
 keywords:
   - claviers
-description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
-  ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant!"
 readingTime: true
 draft: true
-categories:
-  - claviers
-lastmod: 2023-01-02T08:27:08.048Z
-date: 2023-01-02T09:00:00.000Z
-cover: https://via.placeholder.com/1200x600
 series: La théorie des claviers
 ---
 

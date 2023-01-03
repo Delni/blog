@@ -1,8 +1,10 @@
 ---
 title: Wireless, Low Profile, Corne Keyboard Buildlog
-date: 2022-10-16T15:20:35.413Z
-author: Nicolas Delauney
 cover: /images/corne-kbd/cover.en.png
+description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
+date: 2022-10-16T15:20:35.413Z
+lastmod: 2022-10-18T12:12:10.648Z
+author: Nicolas Delauney
 tags:
   - keyboard
   - buildlog
@@ -10,14 +12,9 @@ keywords:
   - keyboard
   - corne
   - buildlog
-description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 readingTime: true
 draft: false
 toc: true
-categories:
-  - keyboard
-lastmod: 2022-10-18T12:12:10.648Z
-slug: corne-kbd
 ---
 
 I've been in love with mechanical keyboards since the day (not so long ago) I had the chance to lay my fingers on one. I started with a Kickstarter, cheap keyboard, before moving to a Keychron K2. Both of them were Bluetooth wireless, which is nice and practical, especially since I have one keyboard for multiple computer.

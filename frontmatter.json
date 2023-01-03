@@ -32,7 +32,7 @@
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "post",
+      "name": "default",
       "pageBundle": false,
       "fields": [
         {

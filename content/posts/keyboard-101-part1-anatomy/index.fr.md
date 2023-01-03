@@ -1,22 +1,19 @@
 ---
 title: "La théorie des claviers - Partie 1 : Anatomie"
+cover: /images/keyboard-101-part1-anatomy/cover.fr.png
+description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
+  petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-01T09:00:00.000Z
+lastmod: 2023-01-02T14:58:20.419Z
 author: Nicolas Delauney
 tags:
   - claviers
 keywords:
-  - claviers mécaniques
-  - claviers
-description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
-  petites bêtes ? Petite présentation et glossaire pour aller plus loin.
+  - clavier
 readingTime: true
 draft: true
-lastmod: 2023-01-02T14:58:20.419Z
-cover: /images/keyboard-101-part1-anatomy/cover.fr.png
 series: La théorie des claviers
-slug: la-theorie-des-claviers-partie-1-anatomie
-categories:
-  - claviers
+type: post
 ---
 
 Les claviers, ces objets de tous les jours. Tout le monde en a (un, ou plus 😇), mais savez vous ce qui se cache derrière ? Des _layouts_ aux _profils_, des claviers _à membranes_ aux claviers _mécaniques_, découvrons ensemble ce monde merveilleux. Pour ne pas vous assomer tout de suite, allons y par étape, en commençant par l'anatomie d'un clavier. Il y a tant à dire, c'est préférable d'avoir plusieurs articles ! 😅

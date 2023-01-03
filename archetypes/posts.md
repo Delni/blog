@@ -11,5 +11,4 @@ readingTime: true
 draft: true
 toc: false
 series: 
-type: post
 ---

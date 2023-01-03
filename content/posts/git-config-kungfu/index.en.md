@@ -1,5 +1,9 @@
 ---
 title: "Git Config: harness the power of git"
+cover: /images/git-config/cover.en.png
+description: Improve your git daily life with these gitconfig tips
+date: 2022-11-23T11:00:00.234Z
+lastmod: 2022-11-23T10:58:46.140Z
 author: Nicolas Delauney
 tags:
   - git
@@ -7,14 +11,8 @@ tags:
 keywords:
   - git
   - gitconfig
-description: Improve your git daily life with these gitconfig tips
 readingTime: true
 draft: false
-categories:
-  - tech
-lastmod: 2022-11-23T10:58:46.140Z
-cover: /images/git-config/cover.en.png
-date: 2022-11-23T11:00:00.234Z
 ---
 
 Git is a powerful tool, but it gets even more powerful with the right config. If you use git, maybe you can benefit from some of these tips. In this article, we will play a lot with the `git config` subcommand.
