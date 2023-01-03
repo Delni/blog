@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part1-anatomy/cover.fr.png
 description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
   petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-01T09:00:00.000Z
-lastmod: 2023-01-02T14:58:20.419Z
+lastmod: 2023-01-03T07:56:09.887Z
 author: Nicolas Delauney
 tags:
   - claviers
@@ -13,10 +13,15 @@ keywords:
 readingTime: true
 draft: true
 series: La théorie des claviers
-type: post
 ---
 
-Les claviers, ces objets de tous les jours. Tout le monde en a (un, ou plus 😇), mais savez vous ce qui se cache derrière ? Des _layouts_ aux _profils_, des claviers _à membranes_ aux claviers _mécaniques_, découvrons ensemble ce monde merveilleux. Pour ne pas vous assomer tout de suite, allons y par étape, en commençant par l'anatomie d'un clavier. Il y a tant à dire, c'est préférable d'avoir plusieurs articles ! 😅
+Les claviers, ces objets de tous les jours. Tout le monde en a (un, ou plus 😇), mais savez vous ce qui se cache derrière ? Des _layouts_ aux _profils_, des claviers _à membranes_ aux claviers _mécaniques_, découvrons ensemble ce monde merveilleux.
+
+{{% note info %}}
+J'aurais pu vous parler des [claviers projettés](https://keyboardsexpert.com/laser-projection-keyboards-guide/), ou des [claviers tactiles](https://fr.wikipedia.org/wiki/Clavier_virtuel) (dits virtuels), mais la vérité c'est que tout ce qui envoie un signal électrique peut devenir un clavier. Alors contentons nous des claviers "classiques", physiques, les plus communs.
+{{% /note %}}
+
+Pour ne pas vous assomer tout de suite, allons y par étape, en commençant par l'anatomie d'un clavier. Il y a tant à dire, c'est préférable d'avoir plusieurs articles ! 😅
 
 ## Pièces
 
@@ -34,13 +39,15 @@ Tous les claviers, qu'ils soient à membrane ou mécaniques (détail juste en de
 Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relaché le courant ne passe pas. C'est grâce à ça que le controleur du clavier (son cerveau) interprète ensuite la position de l'interupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux:
 
 >```goat
->      .-o--o--o--o-->        
->       \ \  \  \  \        
->        '-o--o--o--o-->        
->         \ \  \  \  \        
->          '-o--o--o--o-->        
->             \  \  \  \        
->              v  v  v  v        
+>         .-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
+>          \ \  \  \  \  \  \  \  \  \  \  \  \  \  \        
+>           '-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
+>            \ \  \  \  \  \  \  \  \  \  \  \  \  \  \        
+>             '-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
+>                \  \  \  \  \  \  \  \  \  \  \  \  \  \        
+>                 v  v  v  v  v  v  v  v  v  v  v  v  v  v        
+>
+> Chaque touche se trouve à l'intersection d'une ligne et d'une colonne
 >```
 
 Appuyer sur une touche permet d'activer un fil vertical et un fil horizontal, afin de reconnaître la "position" de la touche activée. Le controleur n'avait que `lignes * colonnes` à gérer.
@@ -96,5 +103,19 @@ En plus, la plupart des switchs sont standardisés. La marque la plus connue, Ch
 
 Voilà, c'est déjà un bon début pour comprendre ce que vous avez entre les mains. Dans la seconde partie, nous parlerons des différents formats de claviers qui existent, et là encore il va y en avoir pour tous les goûts ! ⌨️
 
+---
+
+### Ressources
+Pour aller plus loin, quelques lectures qui m'ont inspiré pour cet article 
+
+- [Anatomy of a mechanical keyboard][2] par Isabela Moreira
+- [Qu'est-ce qu'un clavier à membrane][3] par Eric André
+- [What's NKRO][4] de Open Steno Project
+
 [1]: https://en.wikipedia.org/wiki/Key_rollover#n-key_rollover
 [2]: https://drop.com/talk/10016/anatomy-of-a-mechanical-keyboard
+[3]: https://clavier-meca.fr/definition-clavier-a-membrane
+[4]: https://github.com/openstenoproject/plover/wiki/Supported-Hardware#whats-nkro
+
+[laser-keyboards]: https://keyboardsexpert.com/laser-projection-keyboards-guide/
+[virtual-keyboards]: https://fr.wikipedia.org/wiki/Clavier_virtuel
