@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part1-anatomy/cover.en.png
 description: We are using keyboards every day, but do you really know those tiny creatures?
   Quick overview and glossary to go further.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T10:19:50.156Z
+lastmod: 2023-01-03T12:53:34.939Z
 author: Nicolas Delauney
 tags:
   - keyboard
@@ -57,7 +57,7 @@ Hopefully, nowadays ghosting is increasingly scarce because controller are more 
 
 ## Keyboard families
 
-{{< figure src="./resources/pexels-josh-sorenson-1714205.jpg" caption="Photo by <a href='https://www.pexels.com/en-us/@joshsorenson/'>Josg Sorenson</a> on <a href='https://www.pexels.com/en-us/photo/clavier-magique-apple-avec-pave-numerique-sur-la-table-pres-de-la-souris-sans-fil-1714205/'>Pexels</a>">}}
+{{< figure src="./resources/pexels-josh-sorenson-1714205.jpg" caption="Photo by <a href='https://www.pexels.com/en-us/@joshsorenson/'>Josh Sorenson</a> on <a href='https://www.pexels.com/en-us/photo/clavier-magique-apple-avec-pave-numerique-sur-la-table-pres-de-la-souris-sans-fil-1714205/'>Pexels</a>">}}
 
 There is rougly 2 major types of keyboards, that I'm talking about from the beginning now: membrane keyboards and mechanical keyboards. Historically, all keyboards were mechanical. But technological advances have made the rise of the membrane keyboards possible, relegating the former to the rank of "gamer" keyboards, even if they are worth much more than just that.
 

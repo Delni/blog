@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part1-anatomy/cover.fr.png
 description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
   petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T10:27:19.115Z
+lastmod: 2023-01-03T12:53:14.452Z
 author: Nicolas Delauney
 tags:
   - claviers
@@ -38,14 +38,14 @@ Tous les claviers, qu'ils soient à membrane ou mécaniques (détail juste en de
 Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relaché le courant ne passe pas. C'est grâce à ça que le controleur du clavier (son cerveau) interprète ensuite la position de l'interupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux :
 
 >```goat
->         .-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
+>       .-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
+>        \ \  \  \  \  \  \  \  \  \  \  \  \  \  \        
+>         '-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
 >          \ \  \  \  \  \  \  \  \  \  \  \  \  \  \        
 >           '-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
->            \ \  \  \  \  \  \  \  \  \  \  \  \  \  \        
->             '-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
->                \  \  \  \  \  \  \  \  \  \  \  \  \  \        
->                 v  v  v  v  v  v  v  v  v  v  v  v  v  v        
->
+>              \  \  \  \  \  \  \  \  \  \  \  \  \  \        
+>               v  v  v  v  v  v  v  v  v  v  v  v  v  v        
+>        
 > Chaque touche se trouve à l'intersection d'une ligne et d'une colonne
 >```
 
@@ -57,7 +57,7 @@ Mais heureusement, de nos jours le ghosting est de plus en plus rare car les con
 
 ## Famille de claviers
 
-{{< figure src="./resources/pexels-josh-sorenson-1714205.jpg" caption="Photo de <a href='https://www.pexels.com/fr-fr/@joshsorenson/'>Josg Sorenson</a> sur <a href='https://www.pexels.com/fr-fr/photo/clavier-magique-apple-avec-pave-numerique-sur-la-table-pres-de-la-souris-sans-fil-1714205/'>Pexels</a>">}}
+{{< figure src="./resources/pexels-josh-sorenson-1714205.jpg" caption="Photo de <a href='https://www.pexels.com/fr-fr/@joshsorenson/'>Josh Sorenson</a> sur <a href='https://www.pexels.com/fr-fr/photo/clavier-magique-apple-avec-pave-numerique-sur-la-table-pres-de-la-souris-sans-fil-1714205/'>Pexels</a>">}}
 
 On distingue majoritairement 2 types de claviers, je vous en parle depuis le début : les claviers à membranes et les claviers mécaniques. Historiquement, tous les claviers étaient mécaniques. Et les progrès technologiques ont rendu possible l'avènement des claviers à membranes, reléguant les premiers au rang de claviers "gamer" (même si ils valent bien mieux que ça !).
 
