@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
   ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-01T09:00:00.000Z
-lastmod: 2023-01-31T09:16:50.785Z
+lastmod: 2023-02-02T12:56:30.968Z
 author: Nicolas Delauney
 tags:
   - claviers
@@ -15,7 +15,13 @@ draft: true
 series: La théorie des claviers
 ---
 
-Dans cet article, nous allons parlé de 2 choses : les _formats_, c'est à dire comment les touches sont placées sur le clavier, et leur nombre, et la _disposition_ des touches, c'est à dire l'emplacement des lettres. Vous connaissez certainement la différence entre un AZERTY et un QWERTY, mais on en reparlera 😉
+Dans cet article, nous allons parlé de plusieurs choses : les _formats_, c'est à dire :
+- comment les touches sont disposées sur le clavier
+- comment les touches sont disposées les unes par rapport aux autres
+- combien de touches sont présentes sur le clavier
+- ...
+
+Accrochez vous, c'est un peu long. Mais toujours dans l'idée d'améliorer l'ergonomie de cet outil que nous utilisons tous les jours !
 
 {{< note warning >}}
 Pour illustrer cet article, certains liens vous redirigerons vers des boutiques en ligne. Ces liens ne sont aucunement affiliés.
@@ -58,12 +64,22 @@ Cette solution mécanique toute bête implique un bras de levier entre chaque to
 
 Avec les progrès, les machines mécaniques sont peu à peu remplacées par des machines électriques, puis des téléscripteurs, puis nos claviers... Sans jamais se poser la question d'améliorer un système basé sur **des contraintes qui n'existent plus**.
 
-### Formats des claviers
+## Classique ou _split_ ?
+
+Évidemment, à l'époque des machines à écrire, on recherchait quelque chose de compact et donc on a réduit la surface des claviers au maximum. Mais il en résulte des claviers, qui bien souvent sont plus étroits que la largeure des épaules : lorsque vous tapez dessus, la position des épaules est fermée, pouvant mener à des tensions sur la longue durée... 
+
+Et c'est pour ça qu'on s'est dit, mais, pour ouvrir les épaules, est-ce qu'il ne suffirait pas de casser les claviers en 2 moitiés, pour les écarter à la morphologie de chacun ? Et les claviers _split_ étaient nés.
+
+{{< figure src="./resources/peppy-toad-FR7DkhhW2oA-unsplash.jpg" caption="Photo de <a href='https://unsplash.com/@peppytoad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Peppy Toad</a> sur <a href='https://unsplash.com/fr/photos/FR7DkhhW2oA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" >}}
+
+Déconcertant au début, il faut s'habituer à bien taper avec ses deux mains. Mais une fois cette (toute petite) difficulté surmontée, le confort de la position est un bénéfice sans égal.
+
+## Formats des claviers
 
 Bon, vous l'aurez compris, je milite plutôt pour les claviers ortholinéaires 😄 mais les claviers _staggered_ sont toujours les plus communs, et donc les formats les plus "communs" sont de ce type. Je vous présenterai quelques modèles ortho, mais concentrons nous d'abord sur les formats les plus classiques.
 
 Dans les schémas suivant, nous avons volontairement laisser la dernière ligne "vide", car c'est celle qui va avoir le plus tendance à changer, entre Windows et Mac, avec ou sans touche `fn`, etc. Le format choisi est aussi le format **ANSI**, que l'on reconnaît à sa grande touche `Shift` et sa petite touche `Entrer`. À mettre face au format **ISO**, mais je ne traiterai pas le sujet ici (il faut savoir se poser des limites !). Si vous voulez en savoir plus, voir [ANSI vs ISO][2].
-#### 100%
+### 100%
 
 C'est le format le plus complet. Toutes les touches possibles et imaginables, mais sont-elles toutes nécessaires ? Avec un tel clavier, pas besoin de macropad. Les touches fonctions ? Indispensable. Le numpad ? Évidemment ! Les touches de navigation (page+, page-, insert,...) ? Pourquoi pas !
 
@@ -103,7 +119,7 @@ C'est le format le plus complet. Toutes les touches possibles et imaginables, ma
 
 Exemples : [Razer Deathstalker V2 Pro][razer], [WASD V3 104-key custom mechanical keyboard][wasd]
 
-#### 80% (TKL, _Ten Key Less_)
+### 80% (TKL, _Ten Key Less_)
 
 L'un des formats les plus plebiscités du moment. Pour celleux qui veulent un clavier plus compacte sans sacrifier les touches de navigations et le rang fonctions. On pourra toujours rajouter un pavé numérique externe au besoin 😉
 
@@ -143,7 +159,7 @@ L'un des formats les plus plebiscités du moment. Pour celleux qui veulent un cl
 
 Exemples : [Ducky One 3 RGB TKL][ducky], [MSI VIGOR GK50][msi]
 
-#### 75%
+### 75%
 
 Un format assez proche du TKL (80%), mais avec moins d'espace perdu sur la ligne en haut et une zone de navigation compactée sur une colonne à droite.
 
@@ -182,7 +198,7 @@ Un format assez proche du TKL (80%), mais avec moins d'espace perdu sur la ligne
 
 Exemples : [Logitech Pop Keys][logitech], [Keychron Q1][keychron]
 
-#### 68%
+### 65%
 
 Comme le 75%, mais qui a vraiment besoin des touches fonctions ? 😄
 
@@ -214,7 +230,8 @@ Comme le 75%, mais qui a vraiment besoin des touches fonctions ? 😄
  '---------'  '---------'  '--------'  '-------------------------------------------------'  '-------'  '-------'  '------'  '-----'  '-----'  '-----'
 ```
 
-#### 60%
+Exemples : [RK68][royalkludge], [ROG Falchion][asus]
+### 60%
 
 Un clavier adapté à la saisie de texte. On enlève toutes les fonctions superflues.
 
@@ -246,7 +263,9 @@ Un clavier adapté à la saisie de texte. On enlève toutes les fonctions superf
  '---------'  '---------'  '--------'  '-------------------------------------------------'  '---------'  '---------'  '--------'  '--------'
 ```
 
-#### 40%
+Exemples : [K70 Pro Mini Wireless][corsair], [SK621][cooler]
+
+### 40%
 
 Bon celui là est extrème, c'est juste pour le plaisir (et vous montrer qu'il en existe encore bien d'autres)
 
@@ -273,19 +292,61 @@ Bon celui là est extrème, c'est juste pour le plaisir (et vous montrer qu'il e
  '---------'  '---------'  '--------'  '------------------'  '------------------'  '--------'  '---------'  '--------'
 ```
 
+Exemples : [Vortex Core][vortex], [Drop OKLB][drop]
+
 ### 2%
 
 Il y a encore trop de touches sur le 40% à votre goût ? Attention, la communauté du clavier peut aller plus bas encore. Mesdames et messieurs, veuillez accueillir... Le [**Milk 2%**](https://keyhive.xyz/shop/milk)
 
 {{< figure src="https://camo.githubusercontent.com/c277f2a9e292c906c38dfcb48bca11ba3eb2d658c5776dbb6a138419db88c884/68747470733a2f2f692e696d6775722e636f6d2f5564393675586e2e706e67"  caption="Milk 2% Keyboard by Spaceboard on <a href='https://github.com/Spaceboards/SpaceboardsHardware/tree/master/Keyboards/2%25%20Milk'>GitHub</a>">}}
 
-### Dispositions des touches
+## Mention honorable pour les claviers ortholinéaires
 
-Bref. Avec la machine à écrire naît un nouveau métier : la [dactylographie][1] (littéralement "l'écriture avec les doigts"). Les dactylos rivalisent de techniques pour taper le texte toujours plus rapidement et avec toujours plus d'efficacité. Tellement vite, en fait, que les barres de frappe pouvaient se coincer les unes les autres!
+En général, les claviers ortholinéaires prônent l'ergonomie avant tout (souvenez vous, les _staggered_ se reposent sur des contraintes obsolètes), il n'y a pas vraiment de formats standards comme précédemment. De plus, quand on parle d'ergonomie, il n'est pas rare de retrouver des splits, comme le [ErgoDox EZ](https://ergodox-ez.com/). 
+
+{{< figure src="https://cdn.shopify.com/s/files/1/1152/3264/t/25/assets/neat-split-design-full-board.png?v=79382408954525936961574459930" caption="Ergodox-EZ" attr="ErgoDox" attrlink="https://ergodox-ez.com/" >}}
+
+Sinon, on peut parler du [Planck](https://olkb.com)
+
+{{< youtube bEPg8kk84gw >}}
+
+Ou encore, du [TypeMatrix](http://typematrix.com/)
+
+{{< figure src="http://typematrix.com/style/img/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
+
+Bref, de nombreux claviers existent, à vous de trouver votre bonheur !
+
+
+## Dispositions des touches
+
+Assez parler de formats ! Parlons plutôt de la disposition des lettres sur les touches. Avec la machine à écrire naît un nouveau métier : la [dactylographie][1] (littéralement "l'écriture avec les doigts"). Les dactylos rivalisent de techniques pour taper le texte toujours plus rapidement et avec toujours plus d'efficacité. Tellement vite, en fait, que les barres de frappe pouvaient se coincer les unes les autres ! C'est alors que Christopher Sholes inventa le QWERTY, dans le but d'éloigner les lettres communéments tapées ensembles (les [digrammes][3]), pour éviter le croisement. Donc, en fait, QWERTY est optimisé pour... des machines à écrire mécaniques. Autant vous dire que si c'est le plus répandu dans le monde, ce n'est pas forcément le plus optimal pour vos doigts.
+
+{{< note info >}}
+Pour prendre quelques raccourci, disons AZERTY est l'adaptation française du brevet de Sholes. Même combat 😄
+{{</ note >}}
+
+On pourrait faire un article complet rien que sur la disposition des touches sur votre clavier, mais si vous voulez explorer un peu le sujet, regardez du côté du BÉPO (🇫🇷) et du Dvorak (🇺🇸)
+
+---
+
+En conclusion, le clavier parfait ? Ortholinéaire, split, 75% avec une disposition Dvorak... Je rigole 😄 Le clavier parfait dépend de votre utilisation, évidemment ! Chacun.e aura des besoins et des envies différentes, mais retenez tout de même que les claviers "classiques" que vous connaissez sont loin d'être les meilleurs claviers. Les constructeurs restent sur une lancée initiée il y a plus d'un siècle... Ce n'est pas parce qu'ils sont nombreux à avoir tord qu'ils ont raison 😉
+
+---
+
+### Ressources
+Pour aller plus loin, quelques lectures qui m'ont inspiré pour cet article 
+
+- [ANSI vs ISO][2] par Jake Harfield
+- [Why is QWERTY on our keyboard][4] par Hephzibah Anderson
+- [What's NKRO][4] de Open Steno Project
+- [Bépo, Dvorak, Colemak... A la recherche du clavier français qui pourrait remplacer l’azerty][5] par Florian Reynaud
 
 
 [1]: https://fr.wikipedia.org/wiki/Dactylographie
 [2]: https://www.makeuseof.com/ansi-vs-iso-keyboard/
+[3]: https://fr.wikipedia.org/wiki/Liste_de_digrammes_et_trigrammes
+[4]: https://www.bbc.com/culture/article/20161212-why-is-qwerty-on-our-keyboards
+[5]: https://www.lemonde.fr/pixels/article/2016/04/23/bepo-dvorak-colemak-a-la-recherche-du-clavier-francais-qui-pourrait-remplacer-l-azerty_4907632_4408996.html
 
 [razer]: https://www.razer.com/fr-fr/gaming-keyboards/razer-deathstalker-v2-pro
 [wasd]: https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html
@@ -293,3 +354,9 @@ Bref. Avec la machine à écrire naît un nouveau métier : la [dactylographie][
 [msi]: https://fr.msi.com/Gaming-Gear/VIGOR-GK50-LOW-PROFILE-TKL
 [logitech]: https://www.logitech.com/fr-fr/products/keyboards/pop-keys-wireless-mechanical.html
 [keychron]: https://www.keychron.com/products/keychron-q1
+[royalkludge]: https://rkgamingstore.com/fr/products/rk68-68-wireless-gaming-keyboard
+[asus]: https://rog.asus.com/fr/keyboards/keyboards/compact/rog-falchion-model/
+[corsair]: https://www.corsair.com/fr/fr/Cat%C3%A9gories/Produits/Claviers-gaming/Clavier-m%C3%A9canique-K70-PRO-MINI-WIRELESS-60%25-%C3%A0-switchs-CHERRY-MX-Red-avec-r%C3%A9tro%C3%A9clairage-RGB---Noir/p/CH-9189010-NA
+[cooler]: https://www.coolermaster.com/catalog/peripheral/keyboards/sk621/
+[vortex]: https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=8760
+[drop]: https://drop.com/buy/planck-mechanical-keyboard?searchId=041f7fd977a4b2c21f5356828ca1d091
