@@ -5,12 +5,12 @@ description: "L'élément le plus esthétique et avec lequel vous aller passer l
   temps: les touches. De différentes formes, matières,... Le goût et les
   couleurs, on en discute !"
 date: 2023-03-01T09:00:00.000Z
-lastmod: 2023-01-31T09:18:40.302Z
+lastmod: 2023-02-02T16:45:52.320Z
 author: Nicolas Delauney
 tags:
-  - claviers
+  - clavier
 keywords:
-  - claviers
+  - clavier
 readingTime: true
 draft: true
 series: La théorie des claviers

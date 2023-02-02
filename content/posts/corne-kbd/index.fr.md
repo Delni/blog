@@ -3,13 +3,13 @@ title: "Clavier sans fil, low profile : Corne"
 cover: /images/corne-kbd/cover.fr.png
 description: Comment j'ai construit mon premier clavier mécanique.
 date: 2022-10-16T15:20:35+02:00
-lastmod: 2022-10-18T12:12:30.877Z
+lastmod: 2023-02-02T16:46:33.327Z
 author: Nicolas Delauney
 tags:
-  - claviers
+  - clavier
   - build log
 keywords:
-  - claviers
+  - clavier
   - corne
   - build log
 readingTime: true

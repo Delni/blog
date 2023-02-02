@@ -4,10 +4,10 @@ cover: /images/keyboard-101-part1-anatomy/cover.fr.png
 description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
   petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T12:53:14.452Z
+lastmod: 2023-02-02T16:45:46.409Z
 author: Nicolas Delauney
 tags:
-  - claviers
+  - clavier
 keywords:
   - clavier
 readingTime: true

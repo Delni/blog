@@ -4,12 +4,12 @@ cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
   ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-01T09:00:00.000Z
-lastmod: 2023-02-02T13:04:34.286Z
+lastmod: 2023-02-02T16:45:11.912Z
 author: Nicolas Delauney
 tags:
-  - claviers
+  - clavier
 keywords:
-  - claviers
+  - clavier
 readingTime: true
 draft: true
 series: La théorie des claviers
@@ -64,7 +64,7 @@ Cette solution mécanique toute bête implique un bras de levier entre chaque to
 
 Avec les progrès, les machines mécaniques sont peu à peu remplacées par des machines électriques, puis des téléscripteurs, puis nos claviers... Sans jamais se poser la question d'améliorer un système basé sur **des contraintes qui n'existent plus**.
 
-## Classique ou _split_ ?
+## Clavier classiques ou _split_ ?
 
 Évidemment, à l'époque des machines à écrire, on recherchait quelque chose de compact et donc on a réduit la surface des claviers au minimum. Mais il en résulte des claviers, qui bien souvent sont plus étroits que la largeur des épaules : lorsque vous tapez dessus, la position des épaules est fermée, pouvant mener à des tensions sur la longue durée... 
 
