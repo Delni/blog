@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
   ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-01T09:00:00.000Z
-lastmod: 2023-02-02T16:45:11.912Z
+lastmod: 2023-02-02T18:04:59.592Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -15,7 +15,7 @@ draft: true
 series: La théorie des claviers
 ---
 
-Dans cet article, nous allons parler de plusieurs choses : les _formats_, c'est-à-dire :
+Dans cet article, nous allons parler des _formats_, c'est-à-dire :
 - comment les touches sont disposées sur le clavier
 - comment les touches sont disposées les unes par rapport aux autres
 - combien de touches sont présentes sur le clavier
@@ -28,7 +28,7 @@ Pour illustrer cet article, certains liens vous redirigeront vers des boutiques 
 De plus, je n'ai pas personnellement testé chaque clavier présenté, je les ai juste trouvés pour montrer qu'ils existent.
 {{< /note >}}
 
-## _Staggered_ ou ortholinéaire ?
+## Clavier _staggered_ ou ortholinéaire ?
 
 Avant de regarder le nombre de touches, il est important de connaître la distinction entre 2 familles de claviers. La **très** grande majorité des claviers est dite "_staggered_", c'est à dire "décalée". Si vous n'avez jamais entendu parler de ça, c'est à parier que votre clavier est de ce type ! En opposition, nous trouvons les claviers _ortholinéaires_, dont les touches sont alignées sur une grille.
 
@@ -54,7 +54,7 @@ Avant de regarder le nombre de touches, il est important de connaître la distin
 
 Autant vous le dire tout de suite, la vaste majorité des claviers (staggered donc) est une horreur ergonomique. Regardez vos doigts 2 petites secondes. Est-ce qu'ils ressemblent plutôt à des touches décallées, ou sont-ils bien droits, aptes à s'aligner sur une grille ? C'est pour répondre à ce besoin ergonomique que les claviers ortholinéaires ont vu le jour. Ils sont faits pour s'adapter à vos doigts, et minimiser les mouvements et les temps de trajet entre chaque touche. Avec de tels claviers, plus besoin de décaler votre main pour changer de ligne ! Mais alors, pourquoi voit-on majoritairement des claviers _staggered_ ? Tout simplement pour des raisons historiques. 
 
-{{< figure src="./resources/pexels-tetyana-kovyrina-942289.jpg" caption="Photo by Tetyana Kovyrina from <a href='https://www.pexels.com/photo/classic-black-typewriter-on-brown-wooden-desk-942289/'>Pexels</a>" >}}
+{{< figure src="./resources/pexels-tetyana-kovyrina-942289.jpg" caption="Photo de Tetyana Kovyrina sur <a href='https://www.pexels.com/photo/classic-black-typewriter-on-brown-wooden-desk-942289/'>Pexels</a>" >}}
 
 L'ancêtre du clavier, c'est la machine à écrire. Et à l'époque, elle venait avec des contraintes particulières. Pour frapper un caractère, vous appuyez sur une touche qui va soulever une "barre de frappe", qui va venir frapper le papier au centre exact de la surface d'écriture. C'est le papier qui se déplace, et non la zone de frappe. Et en fait, tout le vocabulaire d'un clavier vient de son illustre ancêtre : taper un texte, vitesse de frappe,… mais on s'égare 😄  
 
@@ -314,9 +314,7 @@ Ou encore, du [TypeMatrix](http://typematrix.com/)
 
 {{< figure src="http://typematrix.com/style/img/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
 
-Bref, de nombreux claviers existent, à vous de trouver votre bonheur !
-
-
+<!-- 
 ## Dispositions des touches
 
 Assez parlé de formats ! Parlons plutôt de la disposition des lettres sur les touches. Avec la machine à écrire naît la [dactylographie][1] (littéralement "l'écriture avec les doigts"). Les dactylos rivalisent de techniques pour taper le texte toujours plus rapidement et avec toujours plus d'efficacité. Tellement vite, en fait, que les barres de frappe pouvaient se coincer les unes les autres ! C'est alors que Christopher Sholes inventa le QWERTY, dans le but d'éloigner les lettres communéments tapées ensembles (les [digrammes][3]), pour éviter le croisement. Donc, en fait, QWERTY est optimisé pour... des machines à écrire mécaniques. Autant vous dire que si c'est le plus répandu dans le monde, ce n'est pas forcément le plus optimal pour vos doigts.
@@ -325,7 +323,8 @@ Assez parlé de formats ! Parlons plutôt de la disposition des lettres sur les 
 Pour prendre quelques raccourci, disons AZERTY est l'adaptation française du brevet de Sholes. Même combat 😄
 {{</ note >}}
 
-On pourrait faire un article complet rien que sur la disposition des touches sur votre clavier, mais si vous voulez explorer un peu le sujet, regardez du côté du BÉPO (🇫🇷) et du Dvorak (🇺🇸)
+On pourrait faire un article complet rien que sur la disposition des touches sur votre clavier, mais si vous voulez explorer un peu le sujet, regardez du côté du BÉPO (🇫🇷) et du Dvorak (🇺🇸) 
+-->
 
 ---
 
@@ -337,16 +336,18 @@ En conclusion, le clavier parfait ? Ortholinéaire, split, 75% avec une disposit
 Pour aller plus loin, quelques lectures qui m'ont inspiré pour cet article 
 
 - [ANSI vs ISO][2] par Jake Harfield
-- [Why is QWERTY on our keyboard][4] par Hephzibah Anderson
-- [What's NKRO][4] de Open Steno Project
-- [Bépo, Dvorak, Colemak... A la recherche du clavier français qui pourrait remplacer l’azerty][5] par Florian Reynaud
+- [Histoire de la machine à écrire ][4] par Chloé Cottour
+
+<!-- - [Why is QWERTY on our keyboard][4] par Hephzibah Anderson -->
+<!-- - [Bépo, Dvorak, Colemak... A la recherche du clavier français qui pourrait remplacer l’azerty][5] par Florian Reynaud -->
 
 
-[1]: https://fr.wikipedia.org/wiki/Dactylographie
+<!-- [1]: https://fr.wikipedia.org/wiki/Dactylographie -->
 [2]: https://www.makeuseof.com/ansi-vs-iso-keyboard/
-[3]: https://fr.wikipedia.org/wiki/Liste_de_digrammes_et_trigrammes
-[4]: https://www.bbc.com/culture/article/20161212-why-is-qwerty-on-our-keyboards
-[5]: https://www.lemonde.fr/pixels/article/2016/04/23/bepo-dvorak-colemak-a-la-recherche-du-clavier-francais-qui-pourrait-remplacer-l-azerty_4907632_4408996.html
+<!-- [3]: https://fr.wikipedia.org/wiki/Liste_de_digrammes_et_trigrammes -->
+[4]: https://gallica.bnf.fr/blog/12102020/histoire-de-la-machine-ecrire
+<!-- [4]: https://www.bbc.com/culture/article/20161212-why-is-qwerty-on-our-keyboards -->
+<!-- [5]: https://www.lemonde.fr/pixels/article/2016/04/23/bepo-dvorak-colemak-a-la-recherche-du-clavier-francais-qui-pourrait-remplacer-l-azerty_4907632_4408996.html -->
 
 [razer]: https://www.razer.com/fr-fr/gaming-keyboards/razer-deathstalker-v2-pro
 [wasd]: https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html
