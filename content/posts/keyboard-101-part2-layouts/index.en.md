@@ -3,15 +3,15 @@ title: "Keyboard 101 - Part 2: Layouts"
 cover: /images/keyboard-101-part2-layouts/cover.en.png
 description: "In this second part, we'll look into layouts: 100%, TKL, ortholinears...
   Whatever it takes to find the keyboard that fits you!"
-date: 2023-02-01T09:00:00.000Z
-lastmod: 2023-02-02T18:12:44.077Z
+date: 2023-02-03T08:00:00.000Z
+lastmod: 2023-02-03T08:04:35.259Z
 author: Nicolas Delauney
 tags:
   - keyboard
 keywords:
   - keyboard
 readingTime: true
-draft: true
+draft: false
 series: Keyboard 101
 ---
 

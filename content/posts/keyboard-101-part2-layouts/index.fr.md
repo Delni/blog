@@ -3,15 +3,15 @@ title: "La théorie des claviers - Partie 2 : Formats"
 cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
   ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
-date: 2023-02-01T09:00:00.000Z
-lastmod: 2023-02-02T18:04:59.592Z
+date: 2023-02-03T08:00:00.000Z
+lastmod: 2023-02-03T08:04:28.273Z
 author: Nicolas Delauney
 tags:
   - clavier
 keywords:
   - clavier
 readingTime: true
-draft: true
+draft: false
 series: La théorie des claviers
 ---
 
