@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part2-layouts/cover.en.png
 description: "In this second part, we'll look into layouts: 100%, TKL, ortholinears...
   Whatever it takes to find the keyboard that fits you!"
 date: 2023-02-03T08:00:00.000Z
-lastmod: 2023-02-03T08:04:35.259Z
+lastmod: 2023-02-03T08:25:18.101Z
 author: Nicolas Delauney
 tags:
   - keyboard
@@ -314,7 +314,7 @@ Or we can talk about the [Planck](https://olkb.com)
 
 Or even, the [TypeMatrix](http://typematrix.com/)
 
-{{< figure src="http://typematrix.com/style/img/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
+{{< figure src="./resources/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
 
 ---
 

@@ -4,7 +4,7 @@ cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
   ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-03T08:00:00.000Z
-lastmod: 2023-02-03T08:04:28.273Z
+lastmod: 2023-02-03T08:25:04.642Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -312,7 +312,7 @@ Sinon, on peut parler du [Planck](https://olkb.com)
 
 Ou encore, du [TypeMatrix](http://typematrix.com/)
 
-{{< figure src="http://typematrix.com/style/img/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
+{{< figure src="./resources/tmx-hero_1-image.png" caption="TypeMatrix" attr="TypeMatrix" attrlink="http://typematrix.com/" >}}
 
 <!-- 
 ## Dispositions des touches
