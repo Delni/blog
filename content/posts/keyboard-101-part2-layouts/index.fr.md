@@ -1,10 +1,9 @@
 ---
 title: "La théorie des claviers - Partie 2 : Formats"
 cover: /images/keyboard-101-part2-layouts/cover.fr.png
-description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL,
-  ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
+description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL, ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-03T08:00:00.000Z
-lastmod: 2023-02-03T08:25:04.642Z
+lastmod: 2024-01-05T10:51:29.114Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -328,7 +327,7 @@ On pourrait faire un article complet rien que sur la disposition des touches sur
 
 ---
 
-En conclusion, le clavier parfait ? Ortholinéaire, split, 75% avec une disposition Dvorak... Je rigole 😄 Le clavier parfait dépend de votre utilisation, évidemment ! Chacun.e aura des besoins et des envies différentes, mais retenez tout de même que les claviers "classiques" que vous connaissez sont loin d'être les meilleurs claviers. Les constructeurs restent sur une lancée initiée il y a plus d'un siècle... Ce n'est pas parce qu'ils sont nombreux à avoir tord qu'ils ont raison 😉
+En conclusion, le clavier parfait ? Ortholinéaire, split, 75% avec une disposition Dvorak... Je rigole 😄 Le clavier parfait dépend de votre utilisation, évidemment ! Chacun·e aura des besoins et des envies différentes, mais retenez tout de même que les claviers "classiques" que vous connaissez sont loin d'être les meilleurs claviers. Les constructeurs restent sur une lancée initiée il y a plus d'un siècle... Ce n'est pas parce qu'ils sont nombreux à avoir tord qu'ils ont raison 😉
 
 ---
 
