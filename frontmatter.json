@@ -8,19 +8,6 @@
       "path": "[[workspace]]/content/posts"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "build log",
-    "buildlog",
-    "claviers",
-    "config",
-    "git",
-    "keyboard"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "claviers",
-    "keyboard",
-    "tech"
-  ],
   "frontMatter.taxonomy.customTaxonomy": [
     {
       "id": "series",
@@ -105,7 +92,9 @@
           "title": "type",
           "name": "type",
           "type": "choice",
-          "choices": ["post"]
+          "choices": [
+            "post"
+          ]
         }
       ]
     }
