@@ -3,7 +3,7 @@ title: "Git Config: harness the power of git"
 cover: /images/git-config/cover.en.png
 description: Improve your git daily life with these gitconfig tips
 date: 2022-11-23T11:00:00.234Z
-lastmod: 2022-11-23T10:58:46.140Z
+lastmod: 2024-01-05T15:54:19.279Z
 author: Nicolas Delauney
 tags:
   - git
@@ -28,7 +28,7 @@ Git will read files in the following orders, and the first read value will be th
 | :-- | :--: |
 | Project | `<project>/.git/config` |
 | User | `<home>/.gitconfig` |
-| Systeme | `/etc/gitconfig` |
+| System | `/etc/gitconfig` |
 
 Anyway, back to `<home>/.gitconfig`. Here you can set the default user information: 
 ```toml
@@ -60,7 +60,7 @@ Wow... Just a minute here to explain this alias 😅
 ![demo git lg](resources/gitlg.gif)
 
 
-Anyway. I personnally prefer to rebase on pull, to have a clean state and history. To do so, put `rebase = merge` in the `[pull]` section.  
+Anyway. I personally prefer to rebase on pull, to have a clean state and history. To do so, put `rebase = merge` in the `[pull]` section.  
 All together, the `.gitconfig` now looks like:
 
 ```toml
@@ -77,7 +77,7 @@ All together, the `.gitconfig` now looks like:
 ```
 
 ## Gitmessage
-One other nice little thing you can add to your config is the message template. If you use some commit convention like [Gitmoji](https://gitmoji.dev/) or [Conventionnal Commit](https://www.conventionalcommits.org/en/v1.0.0/), it is a good place to put it. You can also add some decoration to remember recommended line length, add your coworkers... My pro-tip is to comment each line with `#`, so you only have to uncomment the line(s) you are interrested in on committing.
+One other nice little thing you can add to your config is the message template. If you use some commit convention like [Gitmoji](https://gitmoji.dev/) or [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/), it is a good place to put it. You can also add some decoration to remember recommended line length, add your coworkers... My pro-tip is to comment each line with `#`, so you only have to uncomment the line(s) you are interested in on committing.
 
 To use these templates, simply write them in some files, and then add the path to the file in your config. For instance:
 ```toml
@@ -146,7 +146,7 @@ With these two files, you can now head back to your main `.gitconfig` and simply
         path = ~/.gitconfig.secret
 ```
 
-And the `includeIf` directive means a `include` directive also exist, so you can even go deeper with spliting your configs into smaller parts 😁
+And the `includeIf` directive means a `include` directive also exist, so you can even go deeper with splitting your configs into smaller parts 😁
 
 ### A well-written configuration may take time, but believe me, on the long term this is a winning game! And no need to do all this in a row, the config will evolve in according of our needs and will
 

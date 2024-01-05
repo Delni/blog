@@ -14,4 +14,13 @@
 		"https://json.schemastore.org/github-workflow.json": "${workspace}/.github/workflows/deploy.yml",
 		"https://json.schemastore.org/hugo.json": "${workspace}/config.yml"
 	},
+	"cSpell.language": "en,fr-FR",
+	"cSpell.words": [
+		"buildlog",
+		"keycaps",
+		"Keycaps",
+		"ortholinéaire",
+		"ortholinéaires",
+		"switchs"
+	],
 }

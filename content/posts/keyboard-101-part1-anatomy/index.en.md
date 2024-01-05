@@ -1,10 +1,9 @@
 ---
 title: "Keyboard 101 - Part 1: Anatomy"
 cover: /images/keyboard-101-part1-anatomy/cover.en.png
-description: We are using keyboards every day, but do you really know those tiny creatures?
-  Quick overview and glossary to go further.
+description: We are using keyboards every day, but do you really know those tiny creatures? Quick overview and glossary to go further.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-01-03T12:53:34.939Z
+lastmod: 2024-01-05T15:49:09.636Z
 author: Nicolas Delauney
 tags:
   - keyboard
@@ -15,7 +14,7 @@ draft: false
 series: Keyboard 101
 ---
 
-Keyboards, tools of you daily life. Everbody has some (one, or more 😇) but do you know what's inside ? From _layouts_ to _profiles_, from _membrane_ keyboards to _mechanical_ ones, let's dive together in this wonderful world.
+Keyboards, tools of you daily life. Everybody has some (one, or more 😇) but do you know what's inside ? From _layouts_ to _profiles_, from _membrane_ keyboards to _mechanical_ ones, let's dive together in this wonderful world.
 
 {{% note info %}}
 I could have told you about [laser keyboards](https://keyboardsexpert.com/laser-projection-keyboards-guide/) or [virtual keyboards](https://en.wikipedia.org/wiki/Virtual_keyboard), but the truth is, anything that output an electric signal can be a keyboard. So, for now, let's stick to the more "classical" keyboards, with hardware, the most commonly used.
@@ -59,7 +58,7 @@ Hopefully, nowadays ghosting is increasingly scarce because controller are more 
 
 {{< figure src="./resources/pexels-josh-sorenson-1714205.jpg" caption="Photo by <a href='https://www.pexels.com/en-us/@joshsorenson/'>Josh Sorenson</a> on <a href='https://www.pexels.com/en-us/photo/clavier-magique-apple-avec-pave-numerique-sur-la-table-pres-de-la-souris-sans-fil-1714205/'>Pexels</a>">}}
 
-There is rougly 2 major types of keyboards, that I'm talking about from the beginning now: membrane keyboards and mechanical keyboards. Historically, all keyboards were mechanical. But technological advances have made the rise of the membrane keyboards possible, relegating the former to the rank of "gamer" keyboards, even if they are worth much more than just that.
+There is roughly 2 major types of keyboards, that I'm talking about from the beginning now: membrane keyboards and mechanical keyboards. Historically, all keyboards were mechanical. But technological advances have made the rise of the membrane keyboards possible, relegating the former to the rank of "gamer" keyboards, even if they are worth much more than just that.
 
 ### Membrane keyboard
 
@@ -74,10 +73,10 @@ The most common and cheapest keyboards on the market. The principle is straightf
 > 
 >                    ^
 >                    |       a pushed key
->                     '-causes the eletrical contact
+>                     '-causes the electrical contact
 > ```
 
-They are very silent, because the plastic membrane deforms "smoothly", however when aging the membreane can become softer, which leads to keys not being registered, or keys that won't come up after the keystroke... And if the membrane breaks somewhere, you can ditch the whole keyboard and get a new one. Easy to produce, they are mainly made of plastics. So they are fairly light, come in a wide variety of forms, they can be flexible... If you don't know what's your keyboard type, chances are you have a membrane one (because for mechanical ones, being mechanical is a selling point 😛)
+They are very silent, because the plastic membrane deforms "smoothly", however when aging the membrane can become softer, which leads to keys not being registered, or keys that won't come up after the keystroke... And if the membrane breaks somewhere, you can ditch the whole keyboard and get a new one. Easy to produce, they are mainly made of plastics. So they are fairly light, come in a wide variety of forms, they can be flexible... If you don't know what's your keyboard type, chances are you have a membrane one (because for mechanical ones, being mechanical is a selling point 😛)
 
 | Pros            |  Cons                 |
 | :-------------- | :-------------------- |
@@ -87,8 +86,8 @@ They are very silent, because the plastic membrane deforms "smoothly", however w
 
 ### Mechanical keyboard
 
-Mechanical keyboard are called that way because of their actuators: the _switches_. They are actual switches, mechanically activated when the key is pushed down. A whole new and passionnating world that we will dive in another time!  
-To hold thoses switches, such keyboards need a _switch plate_, a metal plate that comes to stabilize switches in place. That means that mechanical keyboard are often heavier, but much more stable, and if a switch break... Just change it!
+Mechanical keyboard are called that way because of their actuators: the _switches_. They are actual switches, mechanically activated when the key is pushed down. A whole new and fascinating world that we will dive in another time!  
+To hold theses switches, such keyboards need a _switch plate_, a metal plate that comes to stabilize switches in place. That means that mechanical keyboard are often heavier, but much more stable, and if a switch break... Just change it!
 
 {{< figure src="./resources/jan-loyde-cabrera-6e9b45NTrI4-unsplash.jpg" caption="Photo by <a href='https://unsplash.com/@loydieschoice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Jan Loyde Cabrera</a> on <a href='https://unsplash.com/photos/6e9b45NTrI4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>">}}
 

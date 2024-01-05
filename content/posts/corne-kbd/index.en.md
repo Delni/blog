@@ -3,7 +3,7 @@ title: Wireless, Low Profile, Corne Keyboard Buildlog
 cover: /images/corne-kbd/cover.en.png
 description: Buildlog of my first ever custom keyboard, a wireless, low profile Corne.
 date: 2022-10-16T15:20:35.413Z
-lastmod: 2022-10-18T12:12:10.648Z
+lastmod: 2024-01-05T15:56:56.268Z
 author: Nicolas Delauney
 tags:
   - keyboard
@@ -84,7 +84,7 @@ Nothing exciting here, but of course I didn't pay attention to the polarity of t
 
 ## ⚙️ Step 3: Install ZMK
 
-[ZMK](https://zmk.dev) is pretty straight forward to use. They developped a build system relying on Github Actions, so I really just created the repository, launch the little CLI provided and I was good to go, following the [docs here][10]. Every action will output a firmware that I can flash into the keyboard in a breeze. Note that for keymap update, only the main (left) is required to be updated.
+[ZMK](https://zmk.dev) is pretty straight forward to use. They developed a build system relying on Github Actions, so I really just created the repository, launch the little CLI provided and I was good to go, following the [docs here][10]. Every action will output a firmware that I can flash into the keyboard in a breeze. Note that for keymap update, only the main (left) is required to be updated.
 
 To load the firmware onto the nice!nano, it is as simple as it gets: double click on the reset button, and the controller should show as a USB storage on your computer.
 

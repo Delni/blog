@@ -3,7 +3,7 @@ title: "Clavier sans fil, low profile : Corne"
 cover: /images/corne-kbd/cover.fr.png
 description: Comment j'ai construit mon premier clavier mécanique.
 date: 2022-10-16T15:20:35+02:00
-lastmod: 2023-02-02T16:46:33.327Z
+lastmod: 2024-01-05T15:56:15.073Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -70,17 +70,17 @@ Ensuite j'ai soudé les sockets hotswap. C'est assez simple, elles rentrent faci
 | :--------------------------------------------------: | :-----------------------------------------------: |
 |     Les sockets vont directement dans les trous      |  De l'autre côté, les fiches sont bien alignées   |
 
-Les soudures sur les plaques PCB sont presques finies ! Je n'ai pas ajouté de LED par touche, ni _underglow_, pour préserver l'autonomie.
+Les soudures sur les plaques PCB sont presque finies ! Je n'ai pas ajouté de LED par touche, ni _underglow_, pour préserver l'autonomie.
 
 ![PCB entièrement soudée](resources/2022-10-01%2016.29.28.jpg)
 
 ## 🔩 Étape 2: Les micros controllers
 
-Pour ce clavier, j'ai décidé de "socket" mes microcontroller. C'est à dire, rajouter des "sockets" pour pouvoir les enlever facilement, comme pour les switchs. C'est bien plus simple pour gérer les problèmes si... vous voyez... Les choses ne se déroulent pas comme prévu. J'ai utilisé les pins fournies, un peu fines mais je n'ai pas eu de problèmes. Une fois tout ça en place, j'ai aussi rajouté le bouton de reset, et les sockets pour les écrans LCD.
+Pour ce clavier, j'ai décidé de "socket" mes microcontrôleurs. C'est à dire, rajouter des "sockets" pour pouvoir les enlever facilement, comme pour les switchs. C'est bien plus simple pour gérer les problèmes si... vous voyez... Les choses ne se déroulent pas comme prévu. J'ai utilisé les pins fournies, un peu fines mais je n'ai pas eu de problèmes. Une fois tout ça en place, j'ai aussi rajouté le bouton de reset, et les sockets pour les écrans LCD.
 
 ![Millmax sockets et bouton de reset](resources/2022-10-16%2017.01.13.jpg)
 
-Rien d'excitant ici, mais bien entendu je n'ai pas fait attention à la polarité de mon microcontroller, et j'ai dû déssouder les 24 fiches pour le retourner dans le bon sens. En voulant finir plus vite, j'ai perdu quelques heures. Heuresement, l'avoir "socketé" m'a permis de le faire sans risquer tout le circuit.
+Rien d'excitant ici, mais bien entendu je n'ai pas fait attention à la polarité de mon microcontrôleur, et j'ai dû dessouder les 24 fiches pour le retourner dans le bon sens. En voulant finir plus vite, j'ai perdu quelques heures. Heureusement, l'avoir "socketé" m'a permis de le faire sans risquer tout le circuit.
 
 ## ⚙️ Étape 3: Installation de ZMK
 

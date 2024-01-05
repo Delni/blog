@@ -1,10 +1,9 @@
 ---
 title: "La théorie des claviers - Partie 1 : Anatomie"
 cover: /images/keyboard-101-part1-anatomy/cover.fr.png
-description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces
-  petites bêtes ? Petite présentation et glossaire pour aller plus loin.
+description: Nous utilisons des claviers tous les jours, mais connaissez vous vraiment ces petites bêtes ? Petite présentation et glossaire pour aller plus loin.
 date: 2023-01-03T09:00:00.000Z
-lastmod: 2023-02-02T16:45:46.409Z
+lastmod: 2024-01-05T15:53:25.337Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -18,24 +17,24 @@ series: La théorie des claviers
 Les claviers, ces objets de tous les jours. Tout le monde en a (un, ou plus 😇), mais savez vous ce qui se cache derrière ? Des _layouts_ aux _profils_, des claviers _à membranes_ aux claviers _mécaniques_, découvrons ensemble ce monde merveilleux.
 
 {{% note info %}}
-J'aurais pu vous parler des [claviers projettés](https://keyboardsexpert.com/laser-projection-keyboards-guide/), ou des [claviers tactiles](https://fr.wikipedia.org/wiki/Clavier_virtuel) (dits virtuels), mais la vérité c'est que tout ce qui envoie un signal électrique peut devenir un clavier. Alors contentons nous des claviers "classiques", physiques, les plus communs.
+J'aurais pu vous parler des [claviers projetés](https://keyboardsexpert.com/laser-projection-keyboards-guide/), ou des [claviers tactiles](https://fr.wikipedia.org/wiki/Clavier_virtuel) (dits virtuels), mais la vérité c'est que tout ce qui envoie un signal électrique peut devenir un clavier. Alors contentons nous des claviers "classiques", physiques, les plus communs.
 {{% /note %}}
 
-Pour ne pas vous assomer tout de suite, allons y par étape, en commençant par l'anatomie d'un clavier. Il y a tant à dire, c'est préférable d'avoir plusieurs articles ! 😅
+Pour ne pas vous assommer tout de suite, allons y par étape, en commençant par l'anatomie d'un clavier. Il y a tant à dire, c'est préférable d'avoir plusieurs articles ! 😅
 
 ## Pièces
 
 Tous les claviers, qu'ils soient à membrane ou mécaniques (détail juste en dessous), sont composés des éléments suivants :
 
-- une **série d'actuateurs**, la membrane ou les switchs suivant le type du clavier, ils transforment l'action phyisque en signal électrique.
-- **un controleur**, dont le rôle est de transformer le signal en "symbole" envoyé directement à l'ordinateur.  (Exemple : la touche `ligne 4` `colonne 2` == `A`)
-- Un circuit imprimé (PCB), qui relie les actuateurs au controleur
+- une **série d'actuateurs**, la membrane ou les switchs suivant le type du clavier, ils transforment l'action physique en signal électrique.
+- **un contrôleur**, dont le rôle est de transformer le signal en "symbole" envoyé directement à l'ordinateur.  (Exemple : la touche `ligne 4` `colonne 2` == `A`)
+- Un circuit imprimé (PCB), qui relie les actuateurs au contrôleur
 - un **corps** ("case"), qui habille le clavier, protège ses composants internes, et amène de la structure au tout (on ne veut pas d'un clavier qui rebondit à chaque frappe !)
 - les **touches** ("keycaps"), évidemment, qui protègent les actuateurs, et surtout qui donnent toute sa personnalité au clavier
 
 ## Fonctionnement
 
-Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relaché le courant ne passe pas. C'est grâce à ça que le controleur du clavier (son cerveau) interprète ensuite la position de l'interupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux :
+Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, le courant passe, relâché le courant ne passe pas. C'est grâce à ça que le contrôleur du clavier (son cerveau) interprète ensuite la position de l’interrupteur actif pour le transformer en lettre. Pour ce faire, à l'origine, le clavier était une grille de fils verticaux et horizontaux :
 
 >```goat
 >       .-o--o--o--o--o--o--o--o--o--o--o--o--o--o-->        
@@ -49,11 +48,11 @@ Un clavier, à l'origine, c'est simplement une série d'interrupteurs. Appuyé, 
 > Chaque touche se trouve à l'intersection d'une ligne et d'une colonne
 >```
 
-Appuyer sur une touche permet d'activer un fil vertical et un fil horizontal, afin de reconnaître la "position" de la touche activée. Le controleur n'avait que `lignes * colonnes` à gérer.
+Appuyer sur une touche permet d'activer un fil vertical et un fil horizontal, afin de reconnaître la "position" de la touche activée. Le contrôleur n'avait que `lignes * colonnes` à gérer.
 
-Le problème avec ce fonctionnement était qu'à partir d'un certain nombres de touches enfoncées, le controleur n'était plus capable de détecter une nouvelle touche enfoncée. C'est ce qu'on appelle le "[_ghosting_][5]".
+Le problème avec ce fonctionnement était qu'à partir d'un certain nombres de touches enfoncées, le contrôleur n'était plus capable de détecter une nouvelle touche enfoncée. C'est ce qu'on appelle le "[_ghosting_][5]".
 
-Mais heureusement, de nos jours le ghosting est de plus en plus rare car les controleur sont suffisamment miniatiurisés pour pouvoir gérer autant d'input que nécessaire. On parle désormais de claviers [NKRO][1] (_n keys roll over_, c'est à dire capable de retenir N touches en même temps)
+Mais heureusement, de nos jours le ghosting est de plus en plus rare car les contrôleur sont suffisamment miniaturisés pour pouvoir gérer autant d'input que nécessaire. On parle désormais de claviers [NKRO][1] (_n keys roll over_, c'est à dire capable de retenir N touches en même temps)
 
 ## Famille de claviers
 

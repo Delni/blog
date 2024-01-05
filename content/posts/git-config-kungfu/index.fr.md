@@ -3,7 +3,7 @@ title: "Git Config: exploitez toute sa puissance"
 cover: /images/git-config/cover.fr.png
 description: Améliorez votre quotidien git avec ces astuces gitconfig
 date: 2022-11-23T11:00:00.509Z
-lastmod: 2022-11-23T10:59:11.132Z
+lastmod: 2024-01-05T15:55:16.543Z
 author: Nicolas Delauney
 tags:
   - git
@@ -15,7 +15,7 @@ readingTime: true
 draft: false
 ---
 
-Git est un outil extrèmement performant, mais il peut l'être encore plus avec la bonne configuration. Si vous utilisez git, peut-être que certaines de ces astuces vous seront utiles ! Évidemment, dans cet article nous allons beaucoup jouer avec la sous-commande `git config`.
+Git est un outil extrêmement performant, mais il peut l'être encore plus avec la bonne configuration. Si vous utilisez git, peut-être que certaines de ces astuces vous seront utiles ! Évidemment, dans cet article nous allons beaucoup jouer avec la sous-commande `git config`.
 
 {{% note info %}}
 Attention : bien entendu, nous n'inventons rien dans cet article, et tout ce qui y est dit, et bien plus, est expliqué en détail sur la la [documentation officielle](https://git-scm.com/docs).
@@ -57,7 +57,7 @@ Oulah... Juste une minute pour expliquer cet alias un peu velu 😅
    6. ...
    7. Tous les placeholders sont sur la [page de documentation][placeholders], et il y en a encore plein à découvrir !
 
-(Bon, il n'y a pas beaucoup de branches sur ce blog, certe...)
+(Bon, il n'y a pas beaucoup de branches sur ce blog, certes...)
 ![demo git lg](resources/gitlg.gif)
 
 Bref. Personnellement, je préfère faire un _rebase_ à chaque _pull_, pour avoir un historique un peu plus propre. Pour se faire, il suffit de rajouter `rebase = merge` dans la section `[pull]`.  
@@ -76,7 +76,7 @@ Tout mis bout à bout, le fichier `.gitconfig` ressemble maintenant à:
 ```
 
 ## Gitmessage
-Une autre petite chose sympa que vous pouvez ajouter à votre config est un template de message. Si vous utilisez des conventions de commit comme [Gitmoji](https://gitmoji.dev/) ou [Conventionnal Commit](https://www.conventionalcommits.org/en/v1.0.0/), c'est le bon endroit pour le mettre. On peut aussi ajouter des commentaire pour se rappeler de la longueur recommandée des lignes, le co-author de vos collègues... Mon petit pro-tip, c'est de commenter chaque ligne en commençant par `#`, comme ça à chaque commit il suffit de décommenter la ligne pour l'ajouter au commit.
+Une autre petite chose sympa que vous pouvez ajouter à votre config est un template de message. Si vous utilisez des conventions de commit comme [Gitmoji](https://gitmoji.dev/) ou [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/), c'est le bon endroit pour le mettre. On peut aussi ajouter des commentaire pour se rappeler de la longueur recommandée des lignes, le co-author de vos collègues... Mon petit pro-tip, c'est de commenter chaque ligne en commençant par `#`, comme ça à chaque commit il suffit de décommenter la ligne pour l'ajouter au commit.
 
 Pour utiliser ces templates, il suffit de les écrire dans un fichier, puis d'ajouter le chemin de ce fichier dans votre configuration. Par exemple :
 ```toml
@@ -107,7 +107,7 @@ Une petite démo ?
 ## Configuration par dossiers
 Ok, ça commence à être pas mal déjà ! Mais, et si vous travailliez avec des identité multiples ? Disons, une sur Github, une autre sur Gitlab, et peut-être même une dernière sur une instance git autohébergée. On pourrait, évidemment, redéfinir après chaque `clone` la bonne identité et la bonne configuration, dans chaque projet. Mais c'est un peu lourd non ?
 
-Git est là pour vous. On peut ajouter des sections dans le fichier de config qui nous laisse changer certaines valeures, uniquement basé sur le dossier dans lequel nous sommes. Imaginons l'aborescence suivante :
+Git est là pour vous. On peut ajouter des sections dans le fichier de config qui nous laisse changer certaines valeurs, uniquement basé sur le dossier dans lequel nous sommes. Imaginons l'arborescence suivante :
 ```goat
         home                                                                   
           |

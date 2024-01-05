@@ -1,10 +1,9 @@
 ---
 title: "Keyboard 101 - Part 2: Layouts"
 cover: /images/keyboard-101-part2-layouts/cover.en.png
-description: "In this second part, we'll look into layouts: 100%, TKL, ortholinears...
-  Whatever it takes to find the keyboard that fits you!"
+description: "In this second part, we'll look into layouts: 100%, TKL, ortholinears... Whatever it takes to find the keyboard that fits you!"
 date: 2023-02-03T08:00:00.000Z
-lastmod: 2023-02-03T08:25:18.101Z
+lastmod: 2024-01-05T15:47:59.125Z
 author: Nicolas Delauney
 tags:
   - keyboard
@@ -21,7 +20,7 @@ In this post, we'll talk about _layouts_, meaning:
 - how many keys are on the keyboard
 - ...
 
-Hang on, this will be a bit long. But always bare in mind the idea is to improve the ergonomy of a tool we use daily!
+Hang on, this will be a bit long. But always bare in mind the idea is to improve the ergonomics of a tool we use daily!
 
 {{< note warning >}}
 To illustrate this post, some links will redirect you towards online shops. Those links are not affiliated.
@@ -63,11 +62,11 @@ Typewriter is the ancestor of keyboard. At that time, it came with specific cons
 
 This simple (but clever!) mechanical solution needs a lever linked to each key and punch bar. In order to simplify the mechanism, we just...staggered the keys so the lever can pass through. Et voilà!  
 
-With technical progress, mechanical typewriter were gradually being replaced by electrical ones, then teletypwriters, and then our keyboards... Without ever wondering if we could improve a system based on **constraints that no longer exist**.
+With technical progress, mechanical typewriter were gradually being replaced by electrical ones, then teletypewriters, and then our keyboards... Without ever wondering if we could improve a system based on **constraints that no longer exist**.
 
 ## Classical or _split_ keyboard?
 
-Obviously, at the time of typewriters, we pursued something more compact, so we reduced the area of the keyboards. However this results in keyboards that are mostly narrower than shoulder width (well, excluding numpads): when typing on one, the shoulders and torso are clanched, leading to muscle tensions on long-term.
+Obviously, at the time of typewriters, we pursued something more compact, so we reduced the area of the keyboards. However this results in keyboards that are mostly narrower than shoulder width (well, excluding numpads): when typing on one, the shoulders and torso are clenched, leading to muscle tensions on long-term.
 
 That's why some thought to themselves "to open the shoulders, why won't we cut the keyboard in two halves?" That way, each half can be spread as far apart as one need. And thus _split_ keyboards were born.
 
@@ -79,7 +78,7 @@ Disconcerting at first, it takes some time getting used to typing well with both
 
 Well, I guess you got my point, I'm an advocate for ortholinear keyboards 😄 however staggered are still more common, and so are the standardized sizes. We'll see some ortho at the end, but for now let's dive into the classical ones.
 
-In the following diagrams, the last line has been deliberately left "blank", as it is the one that will most likely change, between Windows and Mac, with or without the `fn` key, etc. The chosen format is also the **ANSI** format, which is recognisable by its large `Shift` key and small `Enter` key. This is opposite to the **ISO** format, but I won't go into that here (one have to know where to draw the line!). If you want to know more, see [ANSI vs ISO][2].
+In the following diagrams, the last line has been deliberately left "blank", as it is the one that will most likely change, between Windows and Mac, with or without the `fn` key, etc. The chosen format is also the **ANSI** format, which is recognizable by its large `Shift` key and small `Enter` key. This is opposite to the **ISO** format, but I won't go into that here (one have to know where to draw the line!). If you want to know more, see [ANSI vs ISO][2].
 
 ### 100%
 

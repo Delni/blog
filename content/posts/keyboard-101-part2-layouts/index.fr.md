@@ -3,7 +3,7 @@ title: "La théorie des claviers - Partie 2 : Formats"
 cover: /images/keyboard-101-part2-layouts/cover.fr.png
 description: "Dans cette deuxième partie, nous nous intéressons aux formats : 100%, TKL, ortholinéaires... Tout ça pour trouver le clavier qui vous va comme un gant !"
 date: 2023-02-03T08:00:00.000Z
-lastmod: 2024-01-05T10:51:29.114Z
+lastmod: 2024-01-05T15:44:16.762Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -51,7 +51,7 @@ Avant de regarder le nombre de touches, il est important de connaître la distin
                Clavier staggered                                  Clavier ortholinéaire
 ```
 
-Autant vous le dire tout de suite, la vaste majorité des claviers (staggered donc) est une horreur ergonomique. Regardez vos doigts 2 petites secondes. Est-ce qu'ils ressemblent plutôt à des touches décallées, ou sont-ils bien droits, aptes à s'aligner sur une grille ? C'est pour répondre à ce besoin ergonomique que les claviers ortholinéaires ont vu le jour. Ils sont faits pour s'adapter à vos doigts, et minimiser les mouvements et les temps de trajet entre chaque touche. Avec de tels claviers, plus besoin de décaler votre main pour changer de ligne ! Mais alors, pourquoi voit-on majoritairement des claviers _staggered_ ? Tout simplement pour des raisons historiques. 
+Autant vous le dire tout de suite, la vaste majorité des claviers (staggered donc) est une horreur ergonomique. Regardez vos doigts 2 petites secondes. Est-ce qu'ils ressemblent plutôt à des touches décalées, ou sont-ils bien droits, aptes à s'aligner sur une grille ? C'est pour répondre à ce besoin ergonomique que les claviers ortholinéaires ont vu le jour. Ils sont faits pour s'adapter à vos doigts, et minimiser les mouvements et les temps de trajet entre chaque touche. Avec de tels claviers, plus besoin de décaler votre main pour changer de ligne ! Mais alors, pourquoi voit-on majoritairement des claviers _staggered_ ? Tout simplement pour des raisons historiques. 
 
 {{< figure src="./resources/pexels-tetyana-kovyrina-942289.jpg" caption="Photo de Tetyana Kovyrina sur <a href='https://www.pexels.com/photo/classic-black-typewriter-on-brown-wooden-desk-942289/'>Pexels</a>" >}}
 
@@ -77,7 +77,7 @@ Déconcertant au début, il faut s'habituer à bien taper avec ses deux mains. M
 
 Bon, vous l'aurez compris, je milite plutôt pour les claviers ortholinéaires 😄 mais les claviers _staggered_ sont toujours les plus communs, et donc les formats les plus "communs" sont de ce type. Je vous présenterai quelques modèles ortho, mais concentrons nous d'abord sur les formats les plus classiques.
 
-Dans les schémas suivants, la dernière ligne a volontairement été laisséee "vide", car c'est celle qui va avoir le plus tendance à changer, entre Windows et Mac, avec ou sans touche `fn`, etc. Le format choisi est aussi le format **ANSI**, que l'on reconnaît à sa grande touche `Shift` et sa petite touche `Entrer`. À mettre face au format **ISO**, mais je ne traiterai pas le sujet ici (il faut savoir se poser des limites !). Si vous voulez en savoir plus, voir [ANSI vs ISO][2].
+Dans les schémas suivants, la dernière ligne a volontairement été laissée "vide", car c'est celle qui va avoir le plus tendance à changer, entre Windows et Mac, avec ou sans touche `fn`, etc. Le format choisi est aussi le format **ANSI**, que l'on reconnaît à sa grande touche `Shift` et sa petite touche `Entrer`. À mettre face au format **ISO**, mais je ne traiterai pas le sujet ici (il faut savoir se poser des limites !). Si vous voulez en savoir plus, voir [ANSI vs ISO][2].
 ### 100%
 
 C'est le format le plus complet. Toutes les touches possibles et imaginables, mais sont-elles toutes nécessaires ? Avec un tel clavier, pas besoin de macropad. Les touches fonctions ? Indispensables. Le numpad ? Évidemment ! Les touches de navigation (page+, page-, insert,...) ? Pourquoi pas !
@@ -120,7 +120,7 @@ Exemples : [Razer Deathstalker V2 Pro][razer], [WASD V3 104-key custom mechanica
 
 ### 80% (TKL, _Ten Key Less_)
 
-L'un des formats les plus plebiscités du moment. Pour celleux qui veulent un clavier plus compact sans sacrifier les touches de navigation et le rang fonctions. On pourra toujours rajouter un pavé numérique externe au besoin 😉
+L'un des formats les plus plébiscités du moment. Pour celleux qui veulent un clavier plus compact sans sacrifier les touches de navigation et le rang fonctions. On pourra toujours rajouter un pavé numérique externe au besoin 😉
 
 ```goat
  .-----.          .-----.  .-----.  .-----.  .-----.          .-----.  .-----.  .-----.  .-----.          .-----.  .-----.  .-----.  .-----.          .-----.  .-----.  .-----.
