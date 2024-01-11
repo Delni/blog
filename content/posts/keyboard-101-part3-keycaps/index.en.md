@@ -2,8 +2,8 @@
 title: "Keyboard 101 - Part 3 : Keycaps & switches"
 cover: /images/keyboard-101-part3-keycaps/cover.en.png
 description: "The most aesthetic, but often underrated part: the keycaps! Of various shape, material... Taste and colors, let's talk!"
-date: 2023-03-01T09:00:00+01:00
-lastmod: 2024-01-11T09:08:06.953Z
+date: 2024-01-12T09:00:00+01:00
+lastmod: 2024-01-11T09:10:12.011Z
 author: Nicolas Delauney
 tags:
     - keyboard
@@ -12,7 +12,7 @@ keywords:
     - keycaps
     - switches
 readingTime: true
-draft: true
+draft: false
 series: Keyboard 101
 ---
 

@@ -2,8 +2,8 @@
 title: "La théorie des claviers - Partie 3 : Keycaps & Switchs"
 cover: /images/keyboard-101-part3-keycaps/cover.fr.png
 description: "L'élément le plus esthétique, mais aussi le plus négligé: les touches! De différentes formes, matières... Le goût et les couleurs, on en discute !"
-date: 2023-04-01T09:00:00.000Z
-lastmod: 2024-01-11T06:54:14.883Z
+date: 2024-01-12T09:00:00.000Z
+lastmod: 2024-01-11T09:09:28.396Z
 author: Nicolas Delauney
 tags:
   - clavier
@@ -11,7 +11,7 @@ keywords:
   - clavier
   - keycaps
 readingTime: true
-draft: true
+draft: false
 series: La théorie des claviers
 ---
 
@@ -21,7 +21,7 @@ Après avoir décrit en long en large le clavier dans son ensemble, il nous rest
 
 Bon, quitte à en parler, détaillons un peu plus que précédemment.
 
-Les switchs ont 2 caractéristiques principales : le _stem_, la partie qui permet de fixer les touches dessus, et la _couleur_. La — grande — majorité des stems sont des "Cherry MX clones", qui comme le nom l'indique ont repris la spécification du fabricant [Cherry MX][2], et ressemblent à un +. 
+Les switchs ont 2 caractéristiques principales : le _stem_, la partie qui permet de fixer les touches dessus, et la _couleur_. La — grande — majorité des stems sont des "Cherry MX clones", qui comme le nom l'indique ont repris la spécification du fabricant [Cherry MX][2], et ressemblent à un `+`. 
 
 Pour la couleur, on peut aussi parler de famille, et elles représentent la sensation d'activation. Sans rentrer dans les détails, sachez qu'en terme de switchs, on peut parler de la force d'activation, de la course du switch, ... Pour en revenir aux familles, retenez ceci :
 
@@ -69,7 +69,7 @@ Si certaines keycaps en [métal][3] ou en [bois][4] existent (entre autres!), la
 - **PBT** (Polybutène Téréphtalate): Plus dur et texturé que l'ABS, plus durable mais légèrement plus cassant, et aussi plus cher 🤑
 - **PC** (Polycarbonate): Un plastique dur et translucide, surtout utilisé pour mettre en valeur le rétroéclairage des claviers
 
-{{< figure src="./resources/jay-zhang-2MCF_5fdcnU-unsplash.jpg" attr="Photo Jay Zhang" attr="Unsplash" attrlink="https://unsplash.com/fr/photos/clavier-dordinateur-vert-et-noir-2MCF_5fdcnU" >}}
+{{< figure src="./resources/jay-zhang-2MCF_5fdcnU-unsplash.jpg" caption="Photo par Jay Zhang" attr="Unsplash" attrlink="https://unsplash.com/fr/photos/clavier-dordinateur-vert-et-noir-2MCF_5fdcnU" >}}
 
 ## 4. Les légendes
 On parle de "légendes" pour désigner les lettres ou symboles écrits sur la touche. Il existe plusieurs façons d'_écrire_ sur une touche. La technique la moins onéreuse est  d'**imprimer** la légende, mais après un usage intensif elle risque de s'effacer. 
