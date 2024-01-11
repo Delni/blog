@@ -1,6 +1,8 @@
 name: Deploy Blog
 
 on: 
+  schedule:
+    - cron: '0 9 * * FRI'
   push:
     paths:
       - 'archetypes/**'
